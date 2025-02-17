@@ -1,0 +1,12 @@
+.achievements {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+.achievement-logo {
+  width: 100px;
+  height: auto;
+}
