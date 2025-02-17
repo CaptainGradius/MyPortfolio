@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b140e94b.css",
+    "main.js": "/static/js/main.1613edb9.js",
+    "static/media/cooper-vr-static.png": "/static/media/cooper-vr-static.f332c9b4991618889a90.png",
+    "index.html": "/index.html",
+    "main.b140e94b.css.map": "/static/css/main.b140e94b.css.map",
+    "main.1613edb9.js.map": "/static/js/main.1613edb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b140e94b.css",
+    "static/js/main.1613edb9.js"
+  ]
+}
