@@ -57,12 +57,13 @@
   transform: translate(-50%, -40%);
   width: 80%;           /* Overlay covers 80% of the container's width */
   padding: 15px;
-  background-color: rgba(128, 0, 128, 1); /* Purple with opacity */
+  background-color: rgba(128, 0, 128, 0.95); /* Purple with opacity */
   color: white;
   text-align: center;
   border-radius: 12px;  /* Rounded edges */
   opacity: 0;
   transition: opacity 0.3s ease;
+  font-weight: bold;
 }
 
 .project-thumbnail:hover .overlay {

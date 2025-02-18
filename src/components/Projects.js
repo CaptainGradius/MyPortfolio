@@ -5,7 +5,7 @@ import cooperVrStatic from '../assets/cooper-vr-static.png';
 import trashDayStatic from '../assets/trash-day-static.png';
 import breakingNewsGif from '../assets/breaking-news-gif.gif';
 import swipeToUnlockStatic from '../assets/swipe-to-unlock-static.png';
-import vertigoGift from '../assets/vertigo-gif1.gif';
+import vertigoGif from '../assets/vertigo-gif1.gif';
 
 const projectsData = [
   {
@@ -27,7 +27,7 @@ const projectsData = [
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
     gifImage: 'https://static.wixstatic.com/media/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg/v1/fill/w_1380,h_1237,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg',
-    description: 'Top-tier art collection featuring 3D rendered universes by Gal Barkan',
+    description: 'Sold out collection of 10,000 3d fully rendered universes by Gal Barkan',
   },
   {
     id: 'trash-day',
@@ -47,8 +47,8 @@ const projectsData = [
     id: 'vertigo',
     title: 'Vertigo',
     category: 'Endless-Runner Game',
-    gifImage: vertigoGift,
-    description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
+    gifImage: vertigoGif,
+    description: 'Outmaneuver spiders and hungry plants as youlight your way out the dark greenhouse',
   },
 ];
 
