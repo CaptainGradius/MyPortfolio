@@ -4,7 +4,7 @@ import './Education.css';
 const Education = () => {
   return (
     <section className="education">
-      <img 
+      {/* <img 
         src="https://via.placeholder.com/100?text=Bezalel" 
         alt="Bezalel Academy" 
         className="achievement-logo" 
@@ -13,7 +13,7 @@ const Education = () => {
         src="https://via.placeholder.com/100?text=Hebrew+U" 
         alt="Hebrew U" 
         className="achievement-logo" 
-      />
+      /> */}
     </section>
   );
 };
