@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.64ab5eb8.css",
-    "main.js": "/MyPortfolio/static/js/main.e2368b15.js",
+    "main.js": "/MyPortfolio/static/js/main.2d738140.js",
     "static/media/vertigo-gif1.gif": "/MyPortfolio/static/media/vertigo-gif1.75c8122ab237da4e45fb.gif",
     "static/media/cooper-vr-static.png": "/MyPortfolio/static/media/cooper-vr-static.f332c9b4991618889a90.png",
     "static/media/breaking-news-gif.gif": "/MyPortfolio/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
@@ -9,10 +9,10 @@
     "static/media/swipe-to-unlock-static.png": "/MyPortfolio/static/media/swipe-to-unlock-static.2f0daeb1165080431e9a.png",
     "index.html": "/MyPortfolio/index.html",
     "main.64ab5eb8.css.map": "/MyPortfolio/static/css/main.64ab5eb8.css.map",
-    "main.e2368b15.js.map": "/MyPortfolio/static/js/main.e2368b15.js.map"
+    "main.2d738140.js.map": "/MyPortfolio/static/js/main.2d738140.js.map"
   },
   "entrypoints": [
     "static/css/main.64ab5eb8.css",
-    "static/js/main.e2368b15.js"
+    "static/js/main.2d738140.js"
   ]
 }
