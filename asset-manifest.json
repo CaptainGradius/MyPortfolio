@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.64ab5eb8.css",
-    "main.js": "/MyPortfolio/static/js/main.2d738140.js",
-    "static/media/vertigo-gif1.gif": "/MyPortfolio/static/media/vertigo-gif1.75c8122ab237da4e45fb.gif",
-    "static/media/cooper-vr-static.png": "/MyPortfolio/static/media/cooper-vr-static.f332c9b4991618889a90.png",
-    "static/media/breaking-news-gif.gif": "/MyPortfolio/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
-    "static/media/trash-day-static.png": "/MyPortfolio/static/media/trash-day-static.187b5bca9aa4ec3eece9.png",
-    "static/media/swipe-to-unlock-static.png": "/MyPortfolio/static/media/swipe-to-unlock-static.2f0daeb1165080431e9a.png",
-    "index.html": "/MyPortfolio/index.html",
-    "main.64ab5eb8.css.map": "/MyPortfolio/static/css/main.64ab5eb8.css.map",
-    "main.2d738140.js.map": "/MyPortfolio/static/js/main.2d738140.js.map"
+    "main.css": "/static/css/main.64ab5eb8.css",
+    "main.js": "/static/js/main.b706e5cb.js",
+    "static/media/vertigo-gif1.gif": "/static/media/vertigo-gif1.75c8122ab237da4e45fb.gif",
+    "static/media/cooper-vr-static.png": "/static/media/cooper-vr-static.f332c9b4991618889a90.png",
+    "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
+    "static/media/trash-day-static.png": "/static/media/trash-day-static.187b5bca9aa4ec3eece9.png",
+    "static/media/swipe-to-unlock-static.png": "/static/media/swipe-to-unlock-static.2f0daeb1165080431e9a.png",
+    "index.html": "/index.html",
+    "main.64ab5eb8.css.map": "/static/css/main.64ab5eb8.css.map",
+    "main.b706e5cb.js.map": "/static/js/main.b706e5cb.js.map"
   },
   "entrypoints": [
     "static/css/main.64ab5eb8.css",
-    "static/js/main.2d738140.js"
+    "static/js/main.b706e5cb.js"
   ]
 }
