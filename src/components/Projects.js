@@ -13,14 +13,14 @@ const projectsData = [
     title: 'Breaking News',
     category: 'Award Winning Interactive Experience',
     gifImage: breakingNewsGif,
-    description: 'Award Winning Nostalgic Interactive Experience',
+    description: 'Nostalgic Chaotic Adventure where hitting the TV doesn’t just fix the picture - it transforms reality!',
   },
   {
     id: 'cooper-vr',
     title: 'Cooper VR',
-    category: 'Funded VR & AI Project',
+    category: 'A Funded VR & AI Project',
     gifImage: cooperVrStatic,
-    description: 'Funded academic project that uses VR and AI to practice social interaction.',
+    description: 'Practice social interactions in a safe environment using VR and AI',
   },
   {
     id: 'galaxy-eggs',
@@ -39,16 +39,16 @@ const projectsData = [
   {
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
-    category: 'Social Horror Game',
+    category: 'Social Game',
     gifImage: swipeToUnlockStatic,
     description: 'Social Game for brave people who got nothing to hide',
   },
   {
     id: 'vertigo',
     title: 'Vertigo',
-    category: 'Endless Runner Game',
+    category: 'Endless-Runner Game',
     gifImage: vertigoGift,
-    description: 'Outmaneuver creeping spiders and hungry plants to light up your escape from the dark greenhouse',
+    description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
   },
 ];
 
