@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Projects.css';
+import cooperVrStatic from '../assets/cooper-vr-static.png';
+
 
 const projectsData = [
   {
@@ -13,7 +15,7 @@ const projectsData = [
   {
     id: 'cooper-vr',
     title: 'Cooper VR',
-    staticImage: 'https://via.placeholder.com/200?text=Cooper+VR',
+    staticImage: cooperVrStatic,
     gifImage: 'https://via.placeholder.com/200?text=Cooper+VR+Gif',
     description: 'A short description for Cooper VR.',
   },
