@@ -4,21 +4,26 @@ import Header from './components/Header';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import ProjectDetail from './pages/ProjectDetail';
+import GameBackground from './components/GameBackground';
+// import ProjectDetail from './pages/ProjectDetail';
+import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Education />
-        <Routes>
-          <Route path="/" element={<Projects />} />
-          {/* <Route path="/project/:projectId" element={<ProjectDetail />} /> */}
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <ScoreProvider>
+      <Router>
+        <div className="App">
+          <GameBackground />
+          <Header />
+          <Education />
+          <Routes>
+            <Route path="/" element={<Projects />} />
+            {/* <Route path="/project/:projectId" element={<ProjectDetail />} /> */}
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </ScoreProvider>
   );
 }
 

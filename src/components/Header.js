@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Header.css';
+import { ScoreContext } from '../contexts/ScoreContext';
 
 const Header = () => {
+  const { score } = useContext(ScoreContext);
+
   return (
     <header className="header">
       <img 
@@ -9,8 +12,9 @@ const Header = () => {
         alt="Your Portrait" 
         className="portrait" 
       />
-      <h1>Your Name</h1>
+      <h1>Evyatar E. Cohen</h1>
       <p>A short description about yourself.</p>
+      <p className="score">Score: {score}</p>
     </header>
   );
 };

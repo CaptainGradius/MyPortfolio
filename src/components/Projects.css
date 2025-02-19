@@ -25,6 +25,7 @@
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s ease;
+  user-select: none
 }
 
 .project-card:hover {
@@ -64,6 +65,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   font-weight: bold;
+  user-select: none
 }
 
 .project-thumbnail:hover .overlay {

@@ -27,7 +27,7 @@ const projectsData = [
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
     gifImage: 'https://static.wixstatic.com/media/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg/v1/fill/w_1380,h_1237,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg',
-    description: 'Sold out collection of 10,000 3d fully rendered universes by Gal Barkan',
+    description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
   },
   {
     id: 'trash-day',
@@ -48,7 +48,7 @@ const projectsData = [
     title: 'Vertigo',
     category: 'Endless-Runner Game',
     gifImage: vertigoGif,
-    description: 'Outmaneuver spiders and hungry plants as youlight your way out the dark greenhouse',
+    description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
   },
 ];
 
