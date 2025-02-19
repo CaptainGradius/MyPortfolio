@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a913197.css",
-    "main.js": "/static/js/main.20a6d1f9.js",
+    "main.css": "/static/css/main.7c8facd5.css",
+    "main.js": "/static/js/main.93b5fc73.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/vertigo-gif1.gif": "/static/media/vertigo-gif1.75c8122ab237da4e45fb.gif",
     "static/media/cooper-vr-static.png": "/static/media/cooper-vr-static.f332c9b4991618889a90.png",
@@ -9,12 +9,12 @@
     "static/media/trash-day-static.png": "/static/media/trash-day-static.187b5bca9aa4ec3eece9.png",
     "static/media/swipe-to-unlock-static.png": "/static/media/swipe-to-unlock-static.2f0daeb1165080431e9a.png",
     "index.html": "/index.html",
-    "main.3a913197.css.map": "/static/css/main.3a913197.css.map",
-    "main.20a6d1f9.js.map": "/static/js/main.20a6d1f9.js.map",
+    "main.7c8facd5.css.map": "/static/css/main.7c8facd5.css.map",
+    "main.93b5fc73.js.map": "/static/js/main.93b5fc73.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a913197.css",
-    "static/js/main.20a6d1f9.js"
+    "static/css/main.7c8facd5.css",
+    "static/js/main.93b5fc73.js"
   ]
 }
