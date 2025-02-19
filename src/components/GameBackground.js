@@ -3,22 +3,34 @@ import { ScoreContext } from '../contexts/ScoreContext';
 
 const GameBackground = () => {
   const canvasRef = useRef(null);
+  const containerRef = useRef(null);
   const mousePos = useRef({ x: 0, y: 0 });
   const missiles = useRef([]);
   const asteroids = useRef([]);
   const { setScore } = useContext(ScoreContext);
 
   useEffect(() => {
+    const container = containerRef.current;
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
 
-    // Update mouse position for the spaceship.
-    const handleMouseMove = (e) => {
-      mousePos.current = { x: e.clientX, y: e.clientY };
+    // Resize canvas to match the container's dimensions.
+    const resizeCanvas = () => {
+      canvas.width = container.offsetWidth;
+      canvas.height = container.offsetHeight;
     };
-    window.addEventListener('mousemove', handleMouseMove);
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    // Update mouse position relative to the container.
+    const handleMouseMove = (e) => {
+      const rect = container.getBoundingClientRect();
+      // Clamp mouse position so it doesn't leave the container.
+      const x = Math.min(Math.max(e.clientX - rect.left, 0), rect.width);
+      const y = Math.min(Math.max(e.clientY - rect.top, 0), rect.height);
+      mousePos.current = { x, y };
+    };
+    container.addEventListener('mousemove', handleMouseMove);
 
     // On click, add a new missile.
     const handleClick = () => {
@@ -30,16 +42,14 @@ const GameBackground = () => {
         height: 2,
       });
     };
-    window.addEventListener('click', handleClick);
+    container.addEventListener('click', handleClick);
 
     // Collision detection between a rectangle and a circle.
-    // We'll use this for both missile-asteroid and spaceship-asteroid collisions.
     const rectCircleColliding = (rect, circle) => {
       const rectLeft = rect.x;
       const rectRight = rect.x + rect.width;
       const rectTop = rect.y;
       const rectBottom = rect.y + rect.height;
-      // Find the closest point on the rectangle to the circle's center.
       const closestX = Math.max(rectLeft, Math.min(circle.x, rectRight));
       const closestY = Math.max(rectTop, Math.min(circle.y, rectBottom));
       const distanceX = circle.x - closestX;
@@ -47,7 +57,7 @@ const GameBackground = () => {
       return (distanceX * distanceX + distanceY * distanceY) < (circle.size * circle.size);
     };
 
-    // Main game loop
+    // Main game loop.
     const gameLoop = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -72,7 +82,6 @@ const GameBackground = () => {
       ctx.fillStyle = 'red';
       missiles.current = missiles.current.filter((missile) => {
         missile.x += missile.speed;
-        // Draw the missile if it's still on screen.
         if (missile.x < canvas.width) {
           ctx.fillRect(missile.x, missile.y, missile.width, missile.height);
           return true;
@@ -80,13 +89,14 @@ const GameBackground = () => {
         return false;
       });
 
-      // Spawn asteroids randomly.
+      // Spawn asteroids randomly, making sure they spawn within container bounds.
       if (Math.random() < 0.02) {
         asteroids.current.push({
           x: canvas.width,
+          // Spawn asteroid only within the container's height.
           y: Math.random() * canvas.height,
           speed: 2 + Math.random() * 3,
-          size: 20 + Math.random() * 30, // Used as the radius.
+          size: 20 + Math.random() * 30, // asteroid radius
         });
       }
 
@@ -94,25 +104,19 @@ const GameBackground = () => {
       asteroids.current = asteroids.current.filter((asteroid) => {
         // Check collision with the spaceship.
         if (rectCircleColliding(spaceshipRect, asteroid)) {
-          // If an asteroid hits the spaceship, reset score to zero.
           setScore(0);
-          return false; // Remove this asteroid.
+          return false;
         }
-
-        // Move the asteroid.
         asteroid.x -= asteroid.speed;
         let collided = false;
-        // Check each missile for collision with this asteroid.
         missiles.current = missiles.current.filter((missile) => {
           if (rectCircleColliding(missile, asteroid)) {
             collided = true;
-            // Increase the score on collision.
             setScore((prev) => prev + 1);
-            return false; // Remove this missile.
+            return false;
           }
           return true;
         });
-        // Only draw and keep the asteroid if it hasn't been hit and is on screen.
         if (!collided && asteroid.x + asteroid.size > 0) {
           ctx.fillStyle = 'gray';
           ctx.beginPath();
@@ -129,23 +133,37 @@ const GameBackground = () => {
     gameLoop();
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('click', handleClick);
+      window.removeEventListener('resize', resizeCanvas);
+      container.removeEventListener('mousemove', handleMouseMove);
+      container.removeEventListener('click', handleClick);
     };
   }, [setScore]);
 
   return (
-    <canvas
-      ref={canvasRef}
+    <div
+      ref={containerRef}
       style={{
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
-        zIndex: -1,
-        width: '100%',
-        height: '100%',
+        right: 0,
+        bottom: 0,
       }}
-    />
+    >
+      <canvas
+        id="gameCanvas"
+        ref={canvasRef}
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          zIndex: -1,
+          width: '100%',
+          height: '100%',
+          background: 'black',
+        }}
+      />
+    </div>
   );
 };
 

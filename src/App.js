@@ -13,7 +13,6 @@ function App() {
     <ScoreProvider>
       <Router>
         <div className="App">
-          <GameBackground />
           <Header />
           <Education />
           <Routes>
