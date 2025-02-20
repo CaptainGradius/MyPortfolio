@@ -18,19 +18,11 @@ const Header = () => {
               <a href="https://github.com/CaptainGradius" target="_blank" rel="noopener noreferrer">
                 <img src={githubIcon} alt="GitHub" className="icon" />
               </a>
-              <div className="icon-bubble">GitHub</div>
             </div>
             <div className="icon-container">
               <a href="https://linkedin.com/in/evyatareladcohen" target="_blank" rel="noopener noreferrer">
                 <img src={linkedinIcon} alt="Linkedin" className="icon" />
               </a>
-              <div className="icon-bubble">LinkedIn</div>
-            </div>
-            <div className="icon-container">
-              <a href="https://captaingradius.itch.io/" target="_blank" rel="noopener noreferrer">
-                <img src={itchioIcon} alt="itch.io" className="icon" />
-              </a>
-              <div className="icon-bubble">itch.io</div>
             </div>
           </div>
         </div>
