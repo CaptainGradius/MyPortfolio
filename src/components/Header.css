@@ -3,7 +3,8 @@
   overflow: hidden;
   background: #fff;
   border-bottom: 1px solid #ffffff;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   user-select: none;
   color: #000;
   border-color: #000;
@@ -74,7 +75,7 @@
   z-index: 1;
   bottom: 125%; /* Position above the icon */
   left: 50%;
-  margin-left: -40px; /* Adjust margin to center */
+  margin-left: -0px; /* Adjust margin to center */
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -93,15 +94,4 @@
   border-width: 5px;
   border-style: solid;
   border-color: #000 transparent transparent transparent;
-}
-
-@media (min-width: 600px) {
-  .header-content {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .header-right {
-    margin-top: 0;
-  }
 }
