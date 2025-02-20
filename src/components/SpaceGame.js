@@ -11,6 +11,7 @@ const SpaceGame = () => {
 
   useEffect(() => {
     const handleResize = () => {
+      console.log('Window width:', window.innerWidth); // Log window width
       setIsMobile(window.innerWidth < 600);
     };
 
@@ -29,7 +30,8 @@ const SpaceGame = () => {
     
     // Update canvas dimensions based on window width
     const updateCanvasSize = () => {
-      canvas.width = 1300; // Limit width to 1300px
+      console.log('Window width:', window.innerWidth); // Log window width
+      canvas.width = Math.min(1258, window.innerWidth - 41);
       canvas.height = 200; // Fixed height
     };
     updateCanvasSize();
@@ -202,7 +204,7 @@ const SpaceGame = () => {
   }, [isMobile]);
 
   if (isMobile) {
-    return <div className="mobile-message">Game is not available on mobile devices.</div>;
+    return <div className="mobile-empty"></div>;
   }
 
   return <canvas className="canvas" ref={canvasRef} />;

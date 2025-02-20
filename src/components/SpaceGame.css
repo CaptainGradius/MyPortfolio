@@ -4,10 +4,10 @@
     background: #000;
     display: block;
     cursor: pointer;
-    max-width: 1300px; /* Limit width to 1300px */
+    max-width: 1258px; /* Limit width to 1300px */
 }
 
-.mobile-message {
+.mobile-empty {
     text-align: center;
     color: white;
     font-size: 1.5rem;
