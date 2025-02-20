@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 10rem;
   padding-top: 8rem;
+  padding-bottom: 8rem;
   max-width: 1200px;
 
 }
@@ -75,5 +76,15 @@
   .project-text {
     padding: 1rem;
     /* Optionally remove fixed width constraints */
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 1200px;
+  
   }
 }
