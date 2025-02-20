@@ -1,7 +1,6 @@
 /* SpaceGame.css */
 .canvas {
-    border: 1px solid black;
-    background: #000;
+    background: #f3d8c7;
     display: block;
     cursor: pointer;
     max-width: 1258px; /* Limit width to 1300px */

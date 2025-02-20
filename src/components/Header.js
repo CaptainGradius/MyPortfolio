@@ -34,12 +34,6 @@ const Header = () => {
               </a>
               <div className="icon-bubble">itch.io</div>
             </div>
-            <div className="icon-container">
-              <a href="mailto:evyatar.e.cohen@gmail.com">
-                <img src={emailIcon} alt="Email" className="icon" />
-              </a>
-              <div className="icon-bubble">Email Me</div>
-            </div>
           </div>
           <p></p>
         </div>

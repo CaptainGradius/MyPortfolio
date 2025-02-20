@@ -1,18 +1,19 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Hind Guntur", monospace;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Poppins', monospace;
+  font-family: "Hind Guntur", monospace;
   font-weight: 200;
 }
 
 .container {
   max-width: 1300px;
+  color: #363636;
   margin: 0 auto; /* Centers the container horizontally */
   /* padding: 20px;  Optional: adds some inner spacing */
   background-color: #ffffff;

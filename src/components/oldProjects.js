@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Projects.css';
+import './OldProjects.css';
 import cooperVrStatic from '../assets/cooper-vr-static.png';
 import trashDayStatic from '../assets/trash-day-static.png';
 import breakingNewsGif from '../assets/breaking-news-gif.gif';

@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Education from './components/Education';
-import Projects from './components/Projects';
+import ProjectsList from './components/ProjectsList';
 import SpaceGame from './components/SpaceGame';
-// import ProjectDetail from './pages/ProjectDetail';
+import ProjectDetail from './pages/ProjectDetail';
 import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
       <Router>
         <div className="App">
           <Header />
-          <SpaceGame />
-          {/*<Education />
+          {/* <SpaceGame /> */}
           <Routes>
-            <Route path="/" element={<Projects />} />
-          </Routes> */}
+            <Route path="/" element={<ProjectsList />} />
+            <Route path="/project/:projectId" element={<ProjectDetail />} /> 
+          </Routes>
         </div>
       </Router>
     </ScoreProvider>

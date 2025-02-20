@@ -34,7 +34,7 @@ const SpaceGame = () => {
     // Update canvas dimensions based on window width
     const updateCanvasSize = () => {
       console.log('Window width:', window.innerWidth); // Log window width
-      canvas.width = Math.min(1258, window.innerWidth - 41);
+      canvas.width = Math.min(1264, window.innerWidth - 40);
       canvas.height = 200; // Fixed height
     };
     updateCanvasSize();
@@ -70,7 +70,7 @@ const SpaceGame = () => {
       missiles.current.forEach((missile) => {
         context.beginPath();
         context.arc(missile.x, missile.y, missile.radius, 0, Math.PI * 2);
-        context.fillStyle = 'white';
+        context.fillStyle = '#ff928b';
         context.fill();
       });
 
@@ -84,12 +84,12 @@ const SpaceGame = () => {
       context.lineTo(-10, -15);
       context.lineTo(-10, 15);
       context.closePath();
-      context.fillStyle = 'white';
+      context.fillStyle = '#ffac81';
       context.fill();
       // Cockpit (blue circle)
       context.beginPath();
       context.arc(0, 0, 5, 0, Math.PI * 2);
-      context.fillStyle = 'black';
+      context.fillStyle = '#f3d8c7';
       context.fill();
       context.restore();
 
