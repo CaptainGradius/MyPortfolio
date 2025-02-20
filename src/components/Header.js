@@ -3,7 +3,6 @@ import './Header.css';
 import githubIcon from '../assets/icons/github-icon.png';
 import linkedinIcon from '../assets/icons/linkedin-icon.png';
 import itchioIcon from '../assets/icons/itchio-icon.png';
-import emailIcon from '../assets/icons/email-icon.png';
 
 
 const Header = () => {
@@ -12,7 +11,6 @@ const Header = () => {
       <div className="header-content">
         <div className="header-left">
           <h1>Evyatar E. Cohen</h1>
-          <p>Developer. Game Designer. Maker.</p>
         </div>
         <div>
           <div className="header-right">
@@ -35,9 +33,11 @@ const Header = () => {
               <div className="icon-bubble">itch.io</div>
             </div>
           </div>
-          <p></p>
         </div>
       </div>
+      <div className="header-left">
+        <p>Developer. Game Designer. Maker.</p>
+        </div>
     </header>
   );
 };
