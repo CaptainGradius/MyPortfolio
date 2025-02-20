@@ -23,7 +23,10 @@ const SpaceGame = () => {
   }, []);
 
   useEffect(() => {
-    if (isMobile) return;
+    if (isMobile) {
+      score.current = 0; // Set score to zero if the window is small
+      return;
+    }
 
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
@@ -86,7 +89,7 @@ const SpaceGame = () => {
       // Cockpit (blue circle)
       context.beginPath();
       context.arc(0, 0, 5, 0, Math.PI * 2);
-      context.fillStyle = 'orange';
+      context.fillStyle = 'black';
       context.fill();
       context.restore();
 
@@ -175,19 +178,31 @@ const SpaceGame = () => {
 
       // Collision detection: spaceship vs asteroids
       const spaceshipCollisionRadius = 25;
+      let spaceshipHit = false;
       asteroids.current.forEach((asteroid) => {
         const dx = spaceship.current.x - asteroid.x;
         const dy = spaceship.current.y - asteroid.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < asteroid.size + spaceshipCollisionRadius) {
-          score.current = 0;
+          spaceshipHit = true;
         }
       });
 
-      // Draw score in the top-left corner
+      if (spaceshipHit) {
+        score.current = 0;
+        asteroids.current = [];
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        setTimeout(() => {
+          animationFrameId = requestAnimationFrame(gameLoop);
+        }, 1000);
+        return;
+      }
+
+      // Draw score in the top-right corner
       context.fillStyle = 'white';
       context.font = '20px Arial';
-      context.fillText('Score: ' + score.current, 10, 25);
+      context.textAlign = 'right';
+      context.fillText(score.current, canvas.width - 10, 25);
 
       animationFrameId = requestAnimationFrame(gameLoop);
     };
