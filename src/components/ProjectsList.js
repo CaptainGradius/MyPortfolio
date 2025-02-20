@@ -20,28 +20,12 @@ const projectsData = [
     tags: ['vr', 'ai', 'research'],
   },
   {
-    id: 'galaxy-eggs',
-    title: 'Galaxy Eggs',
-    category: 'Top-Tier NFT Art Collection',
-    gifImage: 'https://static.wixstatic.com/media/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg/v1/fill/w_1380,h_1237,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d55833_75b7129dd84840b2aec8954490154ab4~mv2.jpg',
-    description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
-    tags: ['nft', 'art']
-  },
-  {
     id: 'trash-day',
     title: 'Trash Day',
     category: 'Casual Endless-Runner Game',
     gifImage: require('../assets/trash-day-static.png'),
     description: 'Casual Mobile for high-paced street cleaning',
     tags: ['mobile']
-  },
-  {
-    id: 'swipe-to-unlock',
-    title: 'Swipe to Unlock',
-    category: 'Social Game',
-    gifImage: require('../assets/swipe-to-unlock-static.png'),
-    description: 'Social Game for brave people who got nothing to hide',
-    tags: ['party-game']
   },
   {
     id: 'vertigo',
@@ -51,6 +35,22 @@ const projectsData = [
     description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
     tags: ['pc']
   },
+  {
+    id: 'galaxy-eggs',
+    title: 'Galaxy Eggs',
+    category: 'Top-Tier NFT Art Collection',
+    gifImage: require('../assets/galaxy-eggs-static.png'),
+    description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
+    tags: ['nft', 'art']
+  },
+  {
+    id: 'swipe-to-unlock',
+    title: 'Swipe to Unlock',
+    category: 'Social Game',
+    gifImage: require('../assets/swipe-to-unlock-static.png'),
+    description: 'Social Game for brave people who got nothing to hide',
+    tags: ['party-game']
+  }
 ];
 
 const ProjectsList = () => {

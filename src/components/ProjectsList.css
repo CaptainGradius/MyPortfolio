@@ -1,28 +1,31 @@
 .projects-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 8rem;
+  padding-top: 8rem;
   max-width: 1200px;
-  margin: 0 auto;
-  align-items: center;
+
 }
 
 .project-card {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 480px; /* flexible text column and fixed image column */
   background-color: #ffffff;
   color: #363636;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
 
-/* Text container on the left */
 .project-text {
-  flex: 1;
   padding: 1rem 1.5rem;
-
 }
+
+.project-image {
+  width: 480px;
+  height: 270px;
+  overflow: hidden;
+}
+
 
 /* Style for title, category and description */
 .project-title {
@@ -50,14 +53,6 @@
 }
 
 
-/* Image container on the right */
-.project-image {
-  width: 480px;
-  height: 270px;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-
 .project-image img {
   width: 100%;
   height: 100%;
@@ -68,17 +63,17 @@
   text-decoration: none;
 }
 
-@media (max-width:927px) {
+@media (max-width: 927px) {
   .project-card {
+    display: flex; /* or revert to block display if preferred */
     flex-direction: column;
   }
-
   .project-image {
     width: 100%;
     height: auto;
   }
-
   .project-text {
     padding: 1rem;
+    /* Optionally remove fixed width constraints */
   }
 }
