@@ -38,7 +38,7 @@ const Header = () => {
               <a href="mailto:evyatar.e.cohen@gmail.com">
                 <img src={emailIcon} alt="Email" className="icon" />
               </a>
-              <div className="icon-bubble">Email Me!</div>
+              <div className="icon-bubble">Email Me</div>
             </div>
           </div>
           <p></p>

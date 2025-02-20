@@ -31,10 +31,14 @@
 .header-left h1 {
   margin: 0;
   font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 .header-left p {
   margin: 0.5rem 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 /* Right side styles */
@@ -73,9 +77,9 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* Position above the icon */
+  top: 125%; /* Position below the icon */
   left: 50%;
-  margin-left: -0px; /* Adjust margin to center */
+  margin-left: -40px; /* Adjust margin to center */
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -88,10 +92,23 @@
 .icon-bubble::after {
   content: '';
   position: absolute;
-  top: 100%; /* Arrow at the bottom */
+  bottom: 100%; /* Arrow at the top */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #000 transparent transparent transparent;
+  border-color: transparent transparent #000 transparent;
+}
+
+/* For the email bubble, align its right edge with the icon’s bottom center */
+.icon-container:last-child .icon-bubble {
+  left: calc(50% - 28px); /* Shifts the bubble left so its right edge is at 50% of the container */
+  /* Remove the old margin-left override */
+}
+
+/* Position the arrow to originate from the bubble’s right corner */
+.icon-container:last-child .icon-bubble::after {
+  left: auto;
+  right: 7px;
+  margin-left: 0;
 }
