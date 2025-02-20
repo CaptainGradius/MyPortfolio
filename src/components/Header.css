@@ -30,13 +30,15 @@
 
 .header-left h1 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 
 .header-left p {
   margin: 0.5rem 0;
+  font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
