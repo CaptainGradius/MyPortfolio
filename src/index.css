@@ -9,5 +9,14 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto; /* Centers the container horizontally */
+  /* padding: 20px;  Optional: adds some inner spacing */
+  background-color: #ffffff;
+  padding: 0 20px; /* Adds padding to ensure content is not touching the edges */
+  box-sizing: border-box;
 }
