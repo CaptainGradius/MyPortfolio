@@ -3,26 +3,26 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Education from './components/Education';
 import Projects from './components/Projects';
-import Footer from './components/Footer';
-import GameBackground from './components/GameBackground';
+import SpaceGame from './components/SpaceGame';
 // import ProjectDetail from './pages/ProjectDetail';
 import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
   return (
+    <div className="container">
     <ScoreProvider>
       <Router>
         <div className="App">
           <Header />
-          <Education />
+          <SpaceGame />
+          {/*<Education />
           <Routes>
             <Route path="/" element={<Projects />} />
-            {/* <Route path="/project/:projectId" element={<ProjectDetail />} /> */}
-          </Routes>
-          <Footer />
+          </Routes> */}
         </div>
       </Router>
     </ScoreProvider>
+    </div>
   );
 }
 
