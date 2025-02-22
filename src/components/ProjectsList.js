@@ -7,7 +7,7 @@ const ProjectsList = () => {
   return (
     <section className="projects-list">
       {projectsData.map((project) => (
-        <Link key={project.id} to={`/${project.id}`} className="project-card-link">
+        <Link key={project.id} to={`works/${project.id}`} className="project-card-link">
         <div key={project.id} className="project-card">
           <div className="project-image">
             <img src={project.gifImage} alt={project.title} loading="lazy" />
