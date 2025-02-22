@@ -1,0 +1,99 @@
+.project-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-header h1 {
+  text-align: left;
+  font-family: "Hind Guntur", monospace;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.project-description {
+  color: #555;
+  text-align: left;
+}
+.project-description h2{
+  color: #555;
+  font-family: "Hind Guntur", monospace;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  height: 10px;
+}
+
+.project-description a {
+  color: #555;
+}
+
+.project-website {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-badges {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  max-width: 800px;
+  justify-items: center;
+}
+
+.badge {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* add images one under the other (not a grid) with max width of 800px */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.project-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+.loading-wheel {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #808080;
+  border-radius: 50%;
+  width: 20px;
+  height: 19.8px;
+  animation: spin 1s linear infinite;
+  position: relative;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

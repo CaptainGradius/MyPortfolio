@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Education from './components/Education';
 import ProjectsList from './components/ProjectsList';
 import SpaceGame from './components/SpaceGame';
-import ProjectDetail from './pages/ProjectDetail';
+import ProjectPage from './pages/ProjectPage';
 import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           {/* <SpaceGame /> */}
           <Routes>
             <Route path="/" element={<ProjectsList />} />
-            <Route path="/project/:projectId" element={<ProjectDetail />} /> 
+            <Route path="works/:projectId" element={<ProjectPage />} /> 
           </Routes>
         </div>
       </Router>
