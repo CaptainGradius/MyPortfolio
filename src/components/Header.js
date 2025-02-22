@@ -10,7 +10,9 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="header-left">
-          <h1>Evyatar E. Cohen</h1>
+          <h1>
+            <a href="/" className="name-link">Evyatar Cohen</a>
+          </h1>
         </div>
         <div>
           <div className="header-right">
@@ -29,7 +31,7 @@ const Header = () => {
       </div>
       <div className="header-left">
         <p>Developer. Game Designer. Maker.</p>
-        </div>
+      </div>
     </header>
   );
 };
