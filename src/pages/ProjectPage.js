@@ -57,7 +57,7 @@ const ProjectPage = () => {
           <p>{project.credit.join(" | ")}</p>
           <h2>Press</h2>
           {project.press.map((article, index) => (
-            <p key={index}>
+            <p key={index} style={{ margin: "0", padding: "2px 0" }}>
               <a href={article.link} target="_blank" rel="noopener noreferrer">
                 {article.title}
               </a>
@@ -67,13 +67,13 @@ const ProjectPage = () => {
         <div className="project-badges">
           {project.badges.map((badge, index) => (
             <div key={index} className="badge">
-              <img src={badge} alt="Badge" />
+              <img src={badge} alt="Badge" loading="lazy" />
             </div>
           ))}
         </div>
         <div className="project-gallery">
           {project.images.map((src, index) => (
-            <img key={index} src={src} alt="Project screenshot" className="img" />
+            <img key={index} src={src} alt="Project screenshot" className="img" loading="lazy" />
           ))}
         </div>
       </div>

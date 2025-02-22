@@ -32,7 +32,7 @@ const projectsData = [
     id: 'breaking-news',
     title: 'Breaking News',
     category: 'Nostalgic Interactive Experience',
-    gifImage: require('../assets/breaking-news-gif.gif'),
+    cover: require('../assets/breaking-news-gif.gif'),
     tags: ['alt-ctrl', 'arduino', 'pc'],
     video: 'https://player.vimeo.com/video/1058959133?h=278d24c7e5&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1',
     description: [
@@ -52,7 +52,6 @@ const projectsData = [
       require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design.png'),
       require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design.png'),
     ],
-    /* take screenshots from src\assets\breaking-news-assets\gameplay-screenshots\BreakingNewsScreenshot1.png 1-6 */
     images: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.png'),
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot3.png'),
@@ -64,7 +63,7 @@ const projectsData = [
     id: 'cooper',
     title: 'Cooper',
     category: 'VR Social Interaction Trainer',
-    gifImage: require('../assets/cooper-vr-static.png'),
+    cover: require('../assets/cooper-vr-static.png'),
     description: 'Practice social interactions in a safe environment using VR and AI',
     tags: ['vr', 'ai', 'research'],
   },
@@ -72,7 +71,7 @@ const projectsData = [
     id: 'trash-day',
     title: 'Trash Day',
     category: 'Casual Endless-Runner Game',
-    gifImage: require('../assets/trash-day-static.png'),
+    cover: require('../assets/trash-day-static.png'),
     // multiline description
     description: ``,
     gallery: [
@@ -86,7 +85,7 @@ const projectsData = [
     id: 'vertigo',
     title: 'Vertigo',
     category: 'Endless-Runner Game',
-    gifImage: require('../assets/vertigo-gif1.gif'),
+    cover: require('../assets/vertigo-gif1.gif'),
     description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
     tags: ['pc']
   },
@@ -94,7 +93,7 @@ const projectsData = [
     id: 'galaxy-eggs',
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
-    gifImage: require('../assets/galaxy-eggs-static.png'),
+    cover: require('../assets/galaxy-eggs-static.png'),
     description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
     tags: ['nft', 'art']
   },
@@ -102,7 +101,7 @@ const projectsData = [
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
     category: 'Social Game',
-    gifImage: require('../assets/swipe-to-unlock-static.png'),
+    cover: require('../assets/swipe-to-unlock-static.png'),
     description: 'Social Game for brave people who got nothing to hide',
     tags: ['party-game']
   }
