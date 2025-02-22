@@ -32,13 +32,13 @@
   margin: 0;
   font-size: 1.6rem;
   letter-spacing: 1px;
-  font-family: 'Poppins';
-  font-weight: 300;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: '400';
 }
 
 .header-left p {
   margin: 0.5rem 0;
-  font-family: "Hind Guntur", monospace;
+  font-family: 'Hind Guntur', monospace;
   letter-spacing: -1px;
   font-weight: 100;
 }
@@ -63,4 +63,9 @@
 .icon-container {
   position: relative;
   display: inline-block;
+}
+
+.name-link {
+  text-decoration: none;
+  color: inherit;
 }
