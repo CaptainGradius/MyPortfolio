@@ -40,7 +40,7 @@ const projectsData = [
       { text: "My graduation project at Bezalel Academy, winner of the 2024 Bezalel-wide Maizler Award for Excellence in Design." },
       { text: "Breaking News was developed in two complementary formats - a physical installation featuring a custom-made TV setup and a distributable PC version." },
     ],
-    websites: [{ title: "Download on itch.io", link: "https://captain-gradius.itch.io/breaking-news" }],
+    websites: [{ title: "Download on itch.io", link: "https://lunaduckstudios.itch.io/breakingnews" }],
     credit: ["Danil Bialo", "Evyatar Cohen", "Tamir Herzberg"],
     press: [
       { title: "Article on Scienmag", link: "https://scienmag.com/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
@@ -49,29 +49,36 @@ const projectsData = [
       { title: "Article on Bezalel Academy", link: "https://www.bezalel.ac.il/en/news/662015" },
     ],
     badges: [
-      require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design.png'),
-      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design.png'),
+      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design.webp'),
+      require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design.webp'),
     ],
     images: [
-      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.png'),
-      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot3.png'),
-      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot4.png'),
-      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot5.png')
+      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
+      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot3.webp'),
+      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot4.webp'),
+      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot5.webp')
     ]
   },
   {
     id: 'cooper',
     title: 'Cooper',
     category: 'VR Social Interaction Trainer',
-    cover: require('../assets/cooper-vr-static.png'),
-    description: 'Practice social interactions in a safe environment using VR and AI',
+    cover: require('../assets/cooper-vr-static.webp'),
     tags: ['vr', 'ai', 'research'],
+    description: [ 
+      {text: 'A VR experience designed to help people with social anxiety practice social interactions in a safe and controlled environment.'},
+      {text: 'The project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.'},
+      {text: 'Cooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.'}
+    ],
+    websites: [{ title: "View on itch.io", link: "https://captaingradius.itch.io/cooper-vr" }],
+    credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin"],
+
   },
   {
     id: 'trash-day',
     title: 'Trash Day',
     category: 'Casual Endless-Runner Game',
-    cover: require('../assets/trash-day-static.png'),
+    cover: require('../assets/trash-day-static.webp'),
     // multiline description
     description: ``,
     gallery: [
@@ -93,7 +100,7 @@ const projectsData = [
     id: 'galaxy-eggs',
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
-    cover: require('../assets/galaxy-eggs-static.png'),
+    cover: require('../assets/galaxy-eggs-static.webp'),
     description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
     tags: ['nft', 'art']
   },
@@ -101,7 +108,7 @@ const projectsData = [
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
     category: 'Social Game',
-    cover: require('../assets/swipe-to-unlock-static.png'),
+    cover: require('../assets/swipe-to-unlock-static.webp'),
     description: 'Social Game for brave people who got nothing to hide',
     tags: ['party-game']
   }
