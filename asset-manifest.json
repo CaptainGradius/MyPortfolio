@@ -1,23 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.f778e748.css",
-    "main.js": "/static/js/main.ac770814.js",
+    "main.js": "/static/js/main.51da9116.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
+    "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
     "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
+    "static/media/swipe-to-unlock-gameplay1.webp": "/static/media/swipe-to-unlock-gameplay1.cb4a88db2ba671241d57.webp",
+    "static/media/galaxy-eggs-5.webp": "/static/media/galaxy-eggs-5.74b7957ee6bb6c1c3962.webp",
     "static/media/galaxy-eggs-static.webp": "/static/media/galaxy-eggs-static.23606a338eeec2df9668.webp",
+    "static/media/galaxy-eggs-4.webp": "/static/media/galaxy-eggs-4.e530922526e3d27b7ec4.webp",
+    "static/media/galaxy-eggs-6.webp": "/static/media/galaxy-eggs-6.7e98ee7d012a09a87a30.webp",
+    "static/media/galaxy-eggs-7.webp": "/static/media/galaxy-eggs-7.5dbff8ab1982a72ceac1.webp",
     "static/media/BreakingNewsScreenshot4.webp": "/static/media/BreakingNewsScreenshot4.9dc38ae747fda25feff8.webp",
-    "static/media/trash-day-gameplay-1.webp": "/static/media/trash-day-gameplay-1.797881fd854b93bd5fb4.webp",
     "static/media/BreakingNewsScreenshot5.webp": "/static/media/BreakingNewsScreenshot5.9061b7071edd1d9c2db2.webp",
     "static/media/BreakingNewsScreenshot3.webp": "/static/media/BreakingNewsScreenshot3.17a45119a64f778f3245.webp",
+    "static/media/trash-day-gameplay-1.webp": "/static/media/trash-day-gameplay-1.71edc4a643fff78e2447.webp",
     "static/media/BreakingNewsScreenshot1.webp": "/static/media/BreakingNewsScreenshot1.b59db3217facba858842.webp",
+    "static/media/trash-day-gameplay-2.webp": "/static/media/trash-day-gameplay-2.8fd3346cbad54b839066.webp",
     "static/media/cooper-gameplay1.webp": "/static/media/cooper-gameplay1.20d1b8569984af980a63.webp",
-    "static/media/trash-day-gameplay-2.webp": "/static/media/trash-day-gameplay-2.bb7a5164c2f032b8bcab.webp",
     "static/media/cooper-gameplay4.webp": "/static/media/cooper-gameplay4.39751dca5542f92b2f71.webp",
     "static/media/boston-fig-excellence-in-design.webp": "/static/media/boston-fig-excellence-in-design.fdd185031ddc0a6b9ab3.webp",
     "static/media/cooper-vr-static.webp": "/static/media/cooper-vr-static.246f16d921fb7e5cccd6.webp",
     "static/media/cooper-gameplay3.webp": "/static/media/cooper-gameplay3.e0bd545d0eb65481177b.webp",
-    "static/media/trash-day-logo.webp": "/static/media/trash-day-logo.4f873d7602564586737e.webp",
     "static/media/bezalel-maizler-excellence-in-design.webp": "/static/media/bezalel-maizler-excellence-in-design.8cede12f59929c0d31f2.webp",
     "static/media/trash-day-static.webp": "/static/media/trash-day-static.21e27fb158a80b5dce7d.webp",
     "static/media/cooper-gameplay0.webp": "/static/media/cooper-gameplay0.7886f57dedbd33b32c7f.webp",
@@ -28,11 +33,11 @@
     "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
     "main.f778e748.css.map": "/static/css/main.f778e748.css.map",
-    "main.ac770814.js.map": "/static/js/main.ac770814.js.map",
+    "main.51da9116.js.map": "/static/js/main.51da9116.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f778e748.css",
-    "static/js/main.ac770814.js"
+    "static/js/main.51da9116.js"
   ]
 }
