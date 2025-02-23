@@ -16,6 +16,12 @@
   font-weight: 200;
 }
 
+.project-cover {
+  max-width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+
 .project-description {
   color: #555;
   text-align: left;
