@@ -52,7 +52,7 @@ const projectsData = [
       require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design.webp'),
       require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design.webp'),
     ],
-    images: [
+    gallery: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot3.webp'),
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot4.webp'),
@@ -65,13 +65,20 @@ const projectsData = [
     category: 'VR Social Interaction Trainer',
     cover: require('../assets/cooper-vr-static.webp'),
     tags: ['vr', 'ai', 'research'],
-    description: [ 
-      {text: 'A VR experience designed to help people with social anxiety practice social interactions in a safe and controlled environment.'},
-      {text: 'The project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.'},
-      {text: 'Cooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.'}
+    description: [
+      { text: 'A VR experience designed to help people with social anxiety practice social interactions in a safe and controlled environment using advanced AI tools.' },
+      { text: 'The project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.' },
+      { text: 'Cooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.' }
     ],
-    websites: [{ title: "View on itch.io", link: "https://captaingradius.itch.io/cooper-vr" }],
+    websites: [{ title: "View on itch.io", link: "https://captaingradius.itch.io/cooper-vr"},
+      { title: "Yissum Press Release", link: "https://www.yissum.co.il/technology/virtual-reality-ai-based-platform-for-enhancing-social-interaction" }],
     credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin"],
+    gallery: [
+      require('../assets/cooper-assets/cooper-gameplay0.webp'),
+      require('../assets/cooper-assets/cooper-gameplay1.webp'),
+      require('../assets/cooper-assets/cooper-gameplay3.webp'),
+      require('../assets/cooper-assets/cooper-gameplay4.webp'),
+    ]
 
   },
   {
@@ -79,15 +86,27 @@ const projectsData = [
     title: 'Trash Day',
     category: 'Casual Endless-Runner Game',
     cover: require('../assets/trash-day-static.webp'),
+    tags: ['mobile'],
     // multiline description
-    description: ``,
-    gallery: [
-      // require('../assets/trash-day-1.png'),
-      // require('../assets/trash-day-2.png'),
-      // require('../assets/trash-day-3.png'),
+    description: [
+      { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
+      { text: 'Trash Day was developed in Unity as part of a joint project between Bezalel Academy and the Hebrew University.' },
     ],
-    tags: ['mobile']
+    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/trash-day" }],
+    credit: ["Evyatar Cohen", "Guy Achiam", "Guy Primak", "Michal Dekel"],
+    gallery: [
+      "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
+      require('../assets/trash-day-assets/trash-day-logo.webp'),
+      require('../assets/trash-day-assets/trash-day-gameplay-1.webp'),
+      require('../assets/trash-day-assets/trash-day-gameplay-2.webp')
+    ]
   },
+
+
+
+
+
+
   {
     id: 'vertigo',
     title: 'Vertigo',
@@ -110,7 +129,7 @@ const projectsData = [
     category: 'Social Game',
     cover: require('../assets/swipe-to-unlock-static.webp'),
     description: 'Social Game for brave people who got nothing to hide',
-    tags: ['party-game']
+    tags: ['party-game', 'craft']
   }
 ];
 
