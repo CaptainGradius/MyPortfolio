@@ -81,6 +81,7 @@ const projectsData = [
     ]
 
   },
+
   {
     id: 'trash-day',
     title: 'Trash Day',
@@ -90,7 +91,7 @@ const projectsData = [
     // multiline description
     description: [
       { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
-      { text: 'Trash Day was developed in Unity as part of a joint project between Bezalel Academy and the Hebrew University.' },
+      { text: 'Trash Day was developed in Unity as part of a joint program between Bezalel Academy and the Hebrew University.' },
     ],
     websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/trash-day" }],
     credit: ["Evyatar Cohen", "Guy Achiam", "Guy Primak", "Michal Dekel"],
@@ -102,25 +103,35 @@ const projectsData = [
     ]
   },
 
-
-
-
-
-
   {
     id: 'vertigo',
     title: 'Vertigo',
     category: 'Endless-Runner Game',
-    cover: require('../assets/vertigo-gif1.gif'),
-    description: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse',
-    tags: ['pc']
+    cover: require('../assets/vertigo-gif.gif'),
+    tags: ['pc'],
+    video: "https://player.vimeo.com/video/1059483857?h=b0ea3e7a50&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
+    description: [
+      {text: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse.'},
+      {text: 'Vertigo is set in a dark and dangerous atmosphere, where two retro games meet — Helicopter and Donkey Kong.'},
+      {text: 'This project was made as part of a joint program between Bezalel Academy and the Hebrew University'}
+    ],
+    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/vertigo" }],
+    credit: ["Adi Baron", "Dan Oren", "Evyatar Cohen", "Guy Primak", "Idan Shalom"],
+    gallery: [
+      require('../assets/vertigo-assets/vertigo-gameplay-1.webp'),
+      require('../assets/vertigo-assets/vertigo-gameplay-2.webp'),
+      require('../assets/vertigo-assets/vertigo-gameplay-3.webp')
+    ]
   },
+
   {
     id: 'galaxy-eggs',
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
     cover: require('../assets/galaxy-eggs-static.webp'),
-    description: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan',
+    description: [
+      {text: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan'}
+    ],
     tags: ['nft', 'art']
   },
   {
