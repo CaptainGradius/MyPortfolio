@@ -66,7 +66,7 @@ const projectsData = [
     cover: require('../assets/cooper-vr-static.webp'),
     tags: ['vr', 'ai', 'research'],
     description: [
-      { text: 'A VR experience designed to help people with social anxiety practice social interactions in a safe and controlled environment using advanced AI tools.' },
+      { text: 'A VR experience designed to help people with social anxiety practice interactions in a safe and controlled environment using advanced AI tools.' },
       { text: 'The project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.' },
       { text: 'Cooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.' }
     ],
@@ -88,6 +88,7 @@ const projectsData = [
     category: 'Casual Endless-Runner Game',
     cover: require('../assets/trash-day-static.webp'),
     tags: ['mobile'],
+    video: "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
     // multiline description
     description: [
       { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
@@ -96,8 +97,6 @@ const projectsData = [
     websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/trash-day" }],
     credit: ["Evyatar Cohen", "Guy Achiam", "Guy Primak", "Michal Dekel"],
     gallery: [
-      "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
-      require('../assets/trash-day-assets/trash-day-logo.webp'),
       require('../assets/trash-day-assets/trash-day-gameplay-1.webp'),
       require('../assets/trash-day-assets/trash-day-gameplay-2.webp')
     ]
@@ -119,8 +118,8 @@ const projectsData = [
     credit: ["Adi Baron", "Dan Oren", "Evyatar Cohen", "Guy Primak", "Idan Shalom"],
     gallery: [
       require('../assets/vertigo-assets/vertigo-gameplay-1.webp'),
-      require('../assets/vertigo-assets/vertigo-gameplay-2.webp'),
-      require('../assets/vertigo-assets/vertigo-gameplay-3.webp')
+      require('../assets/vertigo-assets/vertigo-gameplay-3.webp'),
+      require('../assets/vertigo-assets/vertigo-gameplay-2.webp')
     ]
   },
 
@@ -129,18 +128,44 @@ const projectsData = [
     title: 'Galaxy Eggs',
     category: 'Top-Tier NFT Art Collection',
     cover: require('../assets/galaxy-eggs-static.webp'),
-    description: [
-      {text: 'Sold out collection of 10,000 3D fully rendered universes by Gal Barkan'}
+    description:
+      [
+        { "text": "Launched on Septamber 2021, Galaxy Eggs and Galaxy Warriors are two innovative NFT collections developed by (Art)ificial Studios in collaboration with renowned artist Gal Barkan." },
+        { "text": "Prior to the GenAI era, I took part in implementing advanced fine-tuning algorithms on Gal Barkan's original artwork to create a diverse array of one-of-a-kind pieces." },
+        { "text": "The collections feature 9,999 unique eggs and 9,999 distinct warriors, each with its own set of traits, selling at a total volume of more than 16,000 ETH."},
+        { "text": "In October 2022, Justin Lin's Perfect Storm Entertainment announced a joint venture with (Art)ificial Studios on the Galaxy Eggs saga." }
+      ],
+    tags: ['nft', 'art'],
+    credit: ["(Art)ificial Studios", "Gal Barkan", "Perfect Storm Entertainment"],
+    press: [
+      { title: "Article on Deadline Magazine", link: "https://deadline.com/2022/10/justin-lin-perfect-storm-entertainment-artificial-entertainment-galaxy-eggs-1235156787/" }
     ],
-    tags: ['nft', 'art']
+    websites: [{title: "Website", link: "https://www.galaxy-eggs.com"},
+      { title: "Galaxy Eggs on OpenSea", link: "https://opensea.io/collection/galaxyeggs9999" },
+      { title: "Galaxy Warriors on OpenSea", link: "https://opensea.io/collection/galaxy-warriors-9999" }
+    ],
+
+    gallery: [
+      require('../assets/galaxy-eggs-assets/galaxy-eggs-6.webp'),
+      require('../assets/galaxy-eggs-assets/galaxy-eggs-7.webp'),
+      require('../assets/galaxy-eggs-assets/galaxy-eggs-4.webp'),
+      require('../assets/galaxy-eggs-assets/galaxy-eggs-5.webp'),
+      require('../assets/galaxy-eggs-assets/galaxy-eggs-saga-cover.webp'),
+    ]
   },
   {
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
     category: 'Social Game',
     cover: require('../assets/swipe-to-unlock-static.webp'),
-    description: 'Social Game for brave people who got nothing to hide',
-    tags: ['party-game', 'craft']
+    tags: ['party-game', 'craft'],
+    description: [
+      {text: 'Social Game for brave people who got nothing to hide'}
+    ],
+    credit: ["Evyatar Cohen", "Bella Shmuylovich"],
+    gallery: [
+      require('../assets/swipe-to-unlock-assets/swipe-to-unlock-gameplay1.webp')
+    ]
   }
 ];
 
