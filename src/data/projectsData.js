@@ -49,8 +49,8 @@ const projectsData = [
       { title: "Article on Bezalel Academy", link: "https://www.bezalel.ac.il/en/news/662015" },
     ],
     badges: [
-      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design.webp'),
-      require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design.webp'),
+      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design-grey.webp'),
+      require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design-grey.webp'),
     ],
     gallery: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
