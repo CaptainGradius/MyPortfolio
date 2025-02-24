@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12b12566.css",
-    "main.js": "/static/js/main.3cf64e63.js",
+    "main.js": "/static/js/main.801422bb.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
@@ -22,22 +22,22 @@
     "static/media/cooper-gameplay1.webp": "/static/media/cooper-gameplay1.20d1b8569984af980a63.webp",
     "static/media/vertigo-gameplay-3.webp": "/static/media/vertigo-gameplay-3.2012412d73224259ba2b.webp",
     "static/media/cooper-gameplay4.webp": "/static/media/cooper-gameplay4.39751dca5542f92b2f71.webp",
-    "static/media/boston-fig-excellence-in-design.webp": "/static/media/boston-fig-excellence-in-design.fdd185031ddc0a6b9ab3.webp",
     "static/media/cooper-vr-static.webp": "/static/media/cooper-vr-static.246f16d921fb7e5cccd6.webp",
     "static/media/cooper-gameplay3.webp": "/static/media/cooper-gameplay3.e0bd545d0eb65481177b.webp",
     "static/media/swipe-to-unlock-gameplay-1.webp": "/static/media/swipe-to-unlock-gameplay-1.3401fa80535a3ed852b0.webp",
-    "static/media/bezalel-maizler-excellence-in-design.webp": "/static/media/bezalel-maizler-excellence-in-design.8cede12f59929c0d31f2.webp",
     "static/media/trash-day-static.webp": "/static/media/trash-day-static.21e27fb158a80b5dce7d.webp",
     "static/media/cooper-gameplay0.webp": "/static/media/cooper-gameplay0.7886f57dedbd33b32c7f.webp",
+    "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.01ee5b385060862f270d.webp",
     "static/media/itchio-icon.png": "/static/media/itchio-icon.c89ad8a45b0d1eea61fd.png",
+    "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a9562242cd97c623434a.webp",
     "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
     "main.12b12566.css.map": "/static/css/main.12b12566.css.map",
-    "main.3cf64e63.js.map": "/static/js/main.3cf64e63.js.map",
+    "main.801422bb.js.map": "/static/js/main.801422bb.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12b12566.css",
-    "static/js/main.3cf64e63.js"
+    "static/js/main.801422bb.js"
   ]
 }
