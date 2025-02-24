@@ -40,8 +40,7 @@ const ProjectPage = () => {
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
                 title="Project Video"
-                onLoad={() => setTimeout(() => {
-                  setIsVideoLoading(false);}, 1000)}
+                onLoad={() => setIsVideoLoading(false)}
               ></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
@@ -105,9 +104,7 @@ const ProjectPage = () => {
                       allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
                       title="Project Video"
-                      onLoad={() => setTimeout(() => {
-                        setIsVideoLoading(false);}, 1000)
-                      }
+                      onLoad={() => setIsVideoLoading(false)}
                     ></iframe>
                   </div>
                   <script src="https://player.vimeo.com/api/player.js"></script>
