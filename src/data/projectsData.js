@@ -158,13 +158,18 @@ const projectsData = [
     title: 'Swipe to Unlock',
     category: 'Social Game',
     cover: require('../assets/swipe-to-unlock-static.webp'),
-    tags: ['party-game', 'craft'],
-    description: [
-      {text: 'Social Game for brave people who got nothing to hide'}
+    tags: ['social-game', 'craft'],
+    description: 
+    [
+      { "text": "Social game for brave people who have nothing to hide." },
+      { "text": "Players split into two equal teams, sit on opposite sides of the table, and place their personal phones on it while agreeing on any off-limit apps." },
+      { "text": "In each round, one team chooses an opponent's phone and is granted a full minute to peek into it." },
+      { "text": "Once the hourglass runs out, the peeking team shares a fact about its owner - true or false. The opposing team must guess whether the fact is true or false while the hourglass is flipped." },
+      { "text": "The team that wins the round is allowed to reclaim one of its phones. The game ends when one team reclaims all of its phones." }
     ],
     credit: ["Evyatar Cohen", "Bella Shmuylovich"],
     gallery: [
-      require('../assets/swipe-to-unlock-assets/swipe-to-unlock-gameplay1.webp')
+      require('../assets/swipe-to-unlock-assets/swipe-to-unlock-gameplay-1.webp')
     ]
   }
 ];
