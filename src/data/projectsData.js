@@ -1,32 +1,3 @@
-/*
-{
-      id: 'template',
-      title: 'Template Project',
-      category: 'Category',
-      gifImage: require('../assets/template-gif.gif'),
-      tags: ['tag1', 'tag2'],
-      description: 'Description of the project',
-      video : 'https://www.youtube.com/watch?v=3JZ_D3ELwOQ',
-      oneliner: 'One liner description of the project',
-      images: [],
-      badges: [
-        'Badge 1',
-        'Badge 2',
-        'Badge 3',
-      ],
-      press: [
-        { title: "Press 1", link: "https://example.com" },
-        { title: "Press 2", link: "https://example.com" },
-      ],
-      collaborators: [
-        'Collaborator 1',
-        'Collaborator 2',
-        'Collaborator 3',
-      ]
-}
-*/
-
-
 const projectsData = [
   {
     id: 'breaking-news',
@@ -51,6 +22,7 @@ const projectsData = [
     badges: [
       require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design-grey.webp'),
       require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design-grey.webp'),
+      require('../assets/breaking-news-assets/badges/gdwc-finalist-best-student-game.webp'),
     ],
     gallery: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
@@ -59,6 +31,27 @@ const projectsData = [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot5.webp')
     ]
   },
+  {
+    id: 'vertigo',
+    title: 'Vertigo',
+    category: 'Endless-Runner Game',
+    cover: require('../assets/vertigo-gif.gif'),
+    tags: ['pc'],
+    video: "https://player.vimeo.com/video/1059483857?h=b0ea3e7a50&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
+    description: [
+      {text: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse.'},
+      {text: 'Vertigo is set in a dark and dangerous atmosphere, where two retro games meet — Helicopter and Donkey Kong.'},
+      {text: 'This project was made as part of a joint program between Bezalel Academy and the Hebrew University'}
+    ],
+    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/vertigo" }],
+    credit: ["Adi Baron", "Dan Oren", "Evyatar Cohen", "Guy Primak", "Idan Shalom"],
+    gallery: [
+      require('../assets/vertigo-assets/vertigo-gameplay-1.webp'),
+      require('../assets/vertigo-assets/vertigo-gameplay-3.webp'),
+      require('../assets/vertigo-assets/vertigo-gameplay-2.webp')
+    ]
+  },
+
   {
     id: 'cooper',
     title: 'Cooper',
@@ -81,48 +74,6 @@ const projectsData = [
     ]
 
   },
-
-  {
-    id: 'trash-day',
-    title: 'Trash Day',
-    category: 'Casual Endless-Runner Game',
-    cover: require('../assets/trash-day-static.webp'),
-    tags: ['mobile'],
-    video: "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
-    // multiline description
-    description: [
-      { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
-      { text: 'Trash Day was developed in Unity as part of a joint program between Bezalel Academy and the Hebrew University.' },
-    ],
-    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/trash-day" }],
-    credit: ["Evyatar Cohen", "Guy Achiam", "Guy Primak", "Michal Dekel"],
-    gallery: [
-      require('../assets/trash-day-assets/trash-day-gameplay-1.webp'),
-      require('../assets/trash-day-assets/trash-day-gameplay-2.webp')
-    ]
-  },
-
-  {
-    id: 'vertigo',
-    title: 'Vertigo',
-    category: 'Endless-Runner Game',
-    cover: require('../assets/vertigo-gif.gif'),
-    tags: ['pc'],
-    video: "https://player.vimeo.com/video/1059483857?h=b0ea3e7a50&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
-    description: [
-      {text: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse.'},
-      {text: 'Vertigo is set in a dark and dangerous atmosphere, where two retro games meet — Helicopter and Donkey Kong.'},
-      {text: 'This project was made as part of a joint program between Bezalel Academy and the Hebrew University'}
-    ],
-    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/vertigo" }],
-    credit: ["Adi Baron", "Dan Oren", "Evyatar Cohen", "Guy Primak", "Idan Shalom"],
-    gallery: [
-      require('../assets/vertigo-assets/vertigo-gameplay-1.webp'),
-      require('../assets/vertigo-assets/vertigo-gameplay-3.webp'),
-      require('../assets/vertigo-assets/vertigo-gameplay-2.webp')
-    ]
-  },
-
   {
     id: 'galaxy-eggs',
     title: 'Galaxy Eggs',
@@ -154,6 +105,25 @@ const projectsData = [
     ]
   },
   {
+    id: 'trash-day',
+    title: 'Trash Day',
+    category: 'Casual Endless-Runner Game',
+    cover: require('../assets/trash-day-static.webp'),
+    tags: ['mobile'],
+    video: "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
+    // multiline description
+    description: [
+      { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
+      { text: 'Trash Day was developed in Unity as part of a joint program between Bezalel Academy and the Hebrew University.' },
+    ],
+    websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/trash-day" }],
+    credit: ["Evyatar Cohen", "Guy Achiam", "Guy Primak", "Michal Dekel"],
+    gallery: [
+      require('../assets/trash-day-assets/trash-day-gameplay-1.webp'),
+      require('../assets/trash-day-assets/trash-day-gameplay-2.webp')
+    ]
+  },
+  {
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
     category: 'Social Game',
@@ -162,7 +132,7 @@ const projectsData = [
     description: 
     [
       { text: "Social game for brave people who have nothing to hide."},
-      {text: "The custom-made hourglass emphasizes the tension as light seems to close in around you."},
+      { text: "The custom-made hourglass emphasizes the tension as light seems to close in around you."},
       { title: "Playbook"},
       { text: "Players split into two equal teams, sit on opposite sides of the table, and place their personal phones on it while agreeing on any off-limit apps. Each round, one team chooses an opponent's phone and is granted a full minute to peek into it." },
       { text: "Once the hourglass runs out, the peeking team shares a fact about its owner - true or false. The opposing team must guess whether the fact is true or false while the hourglass is flipped." },
