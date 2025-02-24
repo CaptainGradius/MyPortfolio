@@ -40,7 +40,8 @@ const ProjectPage = () => {
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
                 title="Project Video"
-                onLoad={() => setIsVideoLoading(false)}
+                onLoad={() => setTimeout(() => {
+                  setIsVideoLoading(false);}, 1000)}
               ></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
@@ -59,11 +60,13 @@ const ProjectPage = () => {
             </p>
           ))}
           <div>
-            {project?.websites?.map((website, index) => (
-              <a key={index} href={website.link} target="_blank" rel="noopener noreferrer">
-                {website.title}
-              </a>
-            ))}
+          {project?.websites?.map((website, index) => (
+                <p key={index} style={{ margin: "0", padding: "2px 0" }}>
+                  <a href={website.link} target="_blank" rel="noopener noreferrer">
+                    {website.title}
+                  </a>
+                </p>
+              ))}
           </div>
           <h2>Credit</h2>
           <p>{project?.credit?.join(" | ")}</p>
@@ -88,9 +91,33 @@ const ProjectPage = () => {
           ))}
         </div>
         <div className="project-gallery">
-          {project?.images?.map((src, index) => (
-            <img key={index} src={src} alt="Project screenshot" className="img" loading="lazy" />
-          ))}
+          {project?.gallery?.map((src, index, arr) => {
+            if (src.endsWith('.png') || src.endsWith('.webp') || src.endsWith('.gif')) {
+              return <img key={index} src={src} alt="Project screenshot" className="img" loading="lazy" />;
+            } else {
+              const isHorizontal = src.includes('horizontal=1');
+              return (
+                <div key={index} style={{ display: "flex", justifyContent: "center", paddingTop: "30px" }}>
+                  {isVideoLoading && <div className="loading-wheel"></div>}
+                  <div style={{ position: "relative", width: "100%", maxWidth: "800px", height: "0", paddingBottom: "56.25%" }}>
+                    <iframe
+                      src={src}
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
+                      title="Project Video"
+                      onLoad={() => setTimeout(() => {
+                        setIsVideoLoading(false);}, 1000)
+                      }
+                    ></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script>
+                  {isHorizontal && index + 1 < arr.length && arr[index + 1].endsWith('.png') && (
+                    <img key={index + 1} src={arr[index + 1]} alt="Project screenshot" className="img" loading="lazy" style={{ marginLeft: "10px" }} />
+                  )}
+                </div>
+              );
+            }
+          })}
         </div>
       </div>
     </div>
