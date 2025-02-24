@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.12b12566.css",
-    "main.js": "/static/js/main.801422bb.js",
+    "main.css": "/static/css/main.2013cd42.css",
+    "main.js": "/static/js/main.f9e16eca.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
@@ -30,14 +30,15 @@
     "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.01ee5b385060862f270d.webp",
     "static/media/itchio-icon.png": "/static/media/itchio-icon.c89ad8a45b0d1eea61fd.png",
     "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a9562242cd97c623434a.webp",
+    "static/media/gdwc-finalist-best-student-game.webp": "/static/media/gdwc-finalist-best-student-game.ce6d42ff05049b0edc05.webp",
     "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
-    "main.12b12566.css.map": "/static/css/main.12b12566.css.map",
-    "main.801422bb.js.map": "/static/js/main.801422bb.js.map",
+    "main.2013cd42.css.map": "/static/css/main.2013cd42.css.map",
+    "main.f9e16eca.js.map": "/static/js/main.f9e16eca.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b12566.css",
-    "static/js/main.801422bb.js"
+    "static/css/main.2013cd42.css",
+    "static/js/main.f9e16eca.js"
   ]
 }
