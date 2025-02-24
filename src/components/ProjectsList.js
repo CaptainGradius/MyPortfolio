@@ -4,12 +4,16 @@ import './ProjectsList.css';
 import projectsData from '../data/projectsData';
 
 const ProjectsList = () => {
+  const handleProjectClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <section className="projects-list">
       {projectsData.map((project) => {
         const isVideo = project?.cover?.includes('youtube.com') || project?.cover?.includes('vimeo.com'); // Check if the link is to an online video
         return (
-          <Link key={project?.id} to={`works/${project?.id}`} className="project-card-link">
+          <Link key={project?.id} to={`works/${project?.id}`} className="project-card-link" onClick={handleProjectClick}>
             <div key={project?.id} className="project-card">
               <div className="project-image">
                 {isVideo ? (
