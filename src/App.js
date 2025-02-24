@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
-import Education from './components/Education';
 import ProjectsList from './components/ProjectsList';
-import SpaceGame from './components/SpaceGame';
 import ProjectPage from './pages/ProjectPage';
-import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
+  useEffect(() => {
+    const handleRouteChange = () => {
+      window.scrollTo(0, 0);
+    };
+
+    window.addEventListener('popstate', handleRouteChange);
+    return () => {
+      window.removeEventListener('popstate', handleRouteChange);
+    };
+  }, []);
+
   return (
     <div className="container">
-    <ScoreProvider>
       <Router>
         <div className="App">
           <Header />
@@ -22,7 +29,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-    </ScoreProvider>
     </div>
   );
 }
