@@ -21,7 +21,6 @@ function App() {
       <Router>
         <div className="App">
           <Header />
-          {/* <SpaceGame /> */}
           <Routes>
             <Route path="/" element={<ProjectsList />} />
             <Route path="works/:projectId" element={<ProjectPage />} /> 
