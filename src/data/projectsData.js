@@ -111,7 +111,6 @@ const projectsData = [
     cover: require('../assets/trash-day-static.webp'),
     tags: ['mobile'],
     video: "https://player.vimeo.com/video/1059183542?h=2bef0c0d4f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&muted=1&background=1&horizontal=1",
-    // multiline description
     description: [
       { text: 'A casual endless-runner mobile game where you play as a truck driver collecting trash cans and avoiding obstacles.' },
       { text: 'Trash Day was developed in Unity as part of a joint program between Bezalel Academy and the Hebrew University.' },
