@@ -41,7 +41,7 @@ const projectsData = [
     description: [
       {text: 'Outmaneuver spiders and hungry plants as you light your way out the dark greenhouse.'},
       {text: 'Vertigo is set in a dark and dangerous atmosphere, where two retro games meet — Helicopter and Donkey Kong.'},
-      {text: 'This project was made as part of a joint program between Bezalel Academy and the Hebrew University'}
+      {text: 'This project was made as part of a joint program between Bezalel Academy and the Hebrew University.'}
     ],
     websites: [{ title: "Download on itch.io", link: "https://guyprimak.itch.io/vertigo" }],
     credit: ["Adi Baron", "Dan Oren", "Evyatar Cohen", "Guy Primak", "Idan Shalom"],
