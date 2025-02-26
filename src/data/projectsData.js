@@ -26,9 +26,9 @@ const projectsData = [
     ],
     gallery: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
+      require('../assets/breaking-news-assets/gameplay-screenshots/breaking-news-gameplay-gif.gif'),
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot3.webp'),
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot4.webp'),
-      require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot5.webp')
     ]
   },
   {
