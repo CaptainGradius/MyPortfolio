@@ -91,7 +91,7 @@ const projectsData = [
     press: [
       { title: "Article on Deadline Magazine", link: "https://deadline.com/2022/10/justin-lin-perfect-storm-entertainment-artificial-entertainment-galaxy-eggs-1235156787/" }
     ],
-    websites: [{title: "Website", link: "https://www.galaxy-eggs.com"},
+    websites: [{title: "Official Website", link: "https://www.galaxy-eggs.com"},
       { title: "Galaxy Eggs on OpenSea", link: "https://opensea.io/collection/galaxyeggs9999" },
       { title: "Galaxy Warriors on OpenSea", link: "https://opensea.io/collection/galaxy-warriors-9999" }
     ],
