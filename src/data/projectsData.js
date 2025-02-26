@@ -81,7 +81,7 @@ const projectsData = [
     cover: require('../assets/galaxy-eggs-static.webp'),
     description:
       [
-        { "text": "Launched on Septamber 2021, Galaxy Eggs and Galaxy Warriors are two innovative NFT collections developed by (Art)ificial Studios in collaboration with renowned artist Gal Barkan." },
+        { "text": "Launched on September 2021, Galaxy Eggs and Galaxy Warriors are two innovative NFT collections developed by (Art)ificial Studios in collaboration with renowned artist Gal Barkan." },
         { "text": "Prior to the Generative AI era, I took part in implementing advanced fine-tuning algorithms on Gal Barkan's original artwork to create a diverse array of one-of-a-kind pieces." },
         { "text": "The collections feature 9,999 unique eggs and 9,999 distinct warriors, each with its own set of traits, selling at a total volume of more than 16,000 ETH."},
         { "text": "In October 2022, Justin Lin's Perfect Storm Entertainment announced a joint venture with (Art)ificial Studios on the Galaxy Eggs saga." }
