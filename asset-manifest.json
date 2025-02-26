@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2013cd42.css",
-    "main.js": "/static/js/main.1beef484.js",
+    "main.js": "/static/js/main.ffeda506.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
     "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
     "static/media/vertigo-gameplay-2.webp": "/static/media/vertigo-gameplay-2.b7033dc8a0904f1f356f.webp",
+    "static/media/swipe-to-unlock-static.gif": "/static/media/swipe-to-unlock-static.8e2cef75edc0da1117fb.gif",
     "static/media/galaxy-eggs-5.webp": "/static/media/galaxy-eggs-5.74b7957ee6bb6c1c3962.webp",
     "static/media/galaxy-eggs-static.webp": "/static/media/galaxy-eggs-static.23606a338eeec2df9668.webp",
     "static/media/galaxy-eggs-4.webp": "/static/media/galaxy-eggs-4.e530922526e3d27b7ec4.webp",
@@ -30,14 +31,13 @@
     "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.01ee5b385060862f270d.webp",
     "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a9562242cd97c623434a.webp",
     "static/media/gdwc-finalist-best-student-game.webp": "/static/media/gdwc-finalist-best-student-game.ce6d42ff05049b0edc05.webp",
-    "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
     "main.2013cd42.css.map": "/static/css/main.2013cd42.css.map",
-    "main.1beef484.js.map": "/static/js/main.1beef484.js.map",
+    "main.ffeda506.js.map": "/static/js/main.ffeda506.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2013cd42.css",
-    "static/js/main.1beef484.js"
+    "static/js/main.ffeda506.js"
   ]
 }
