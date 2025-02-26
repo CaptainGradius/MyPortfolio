@@ -126,7 +126,7 @@ const projectsData = [
     id: 'swipe-to-unlock',
     title: 'Swipe to Unlock',
     category: 'Social Game',
-    cover: require('../assets/swipe-to-unlock-static.webp'),
+    cover: require('../assets/swipe-to-unlock-static.gif'),
     tags: ['experimental', 'craft'],
     description: 
     [
