@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2013cd42.css",
-    "main.js": "/static/js/main.f9e16eca.js",
+    "main.js": "/static/js/main.a5c544a4.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
@@ -34,11 +34,11 @@
     "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
     "main.2013cd42.css.map": "/static/css/main.2013cd42.css.map",
-    "main.f9e16eca.js.map": "/static/js/main.f9e16eca.js.map",
+    "main.a5c544a4.js.map": "/static/js/main.a5c544a4.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2013cd42.css",
-    "static/js/main.f9e16eca.js"
+    "static/js/main.a5c544a4.js"
   ]
 }
