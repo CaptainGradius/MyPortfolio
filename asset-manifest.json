@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2013cd42.css",
-    "main.js": "/static/js/main.7b7a0184.js",
+    "main.js": "/static/js/main.b9221aed.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
     "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
@@ -15,7 +16,6 @@
     "static/media/galaxy-eggs-7.webp": "/static/media/galaxy-eggs-7.5dbff8ab1982a72ceac1.webp",
     "static/media/trash-day-gameplay-2.webp": "/static/media/trash-day-gameplay-2.cfcc07b9474dc4c50181.webp",
     "static/media/BreakingNewsScreenshot4.webp": "/static/media/BreakingNewsScreenshot4.9dc38ae747fda25feff8.webp",
-    "static/media/BreakingNewsScreenshot5.webp": "/static/media/BreakingNewsScreenshot5.9061b7071edd1d9c2db2.webp",
     "static/media/BreakingNewsScreenshot3.webp": "/static/media/BreakingNewsScreenshot3.17a45119a64f778f3245.webp",
     "static/media/trash-day-gameplay-1.webp": "/static/media/trash-day-gameplay-1.a6a903c02e5a0072713a.webp",
     "static/media/BreakingNewsScreenshot1.webp": "/static/media/BreakingNewsScreenshot1.b59db3217facba858842.webp",
@@ -33,11 +33,11 @@
     "static/media/swipe-to-unlock-static.webp": "/static/media/swipe-to-unlock-static.0e7d7c011997230c0558.webp",
     "index.html": "/index.html",
     "main.2013cd42.css.map": "/static/css/main.2013cd42.css.map",
-    "main.7b7a0184.js.map": "/static/js/main.7b7a0184.js.map",
+    "main.b9221aed.js.map": "/static/js/main.b9221aed.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2013cd42.css",
-    "static/js/main.7b7a0184.js"
+    "static/js/main.b9221aed.js"
   ]
 }
