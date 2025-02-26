@@ -2,8 +2,6 @@ import React, { useContext } from 'react';
 import './Header.css';
 import githubIcon from '../assets/icons/github-icon.png';
 import linkedinIcon from '../assets/icons/linkedin-icon.png';
-import itchioIcon from '../assets/icons/itchio-icon.png';
-
 
 const Header = () => {
   return (

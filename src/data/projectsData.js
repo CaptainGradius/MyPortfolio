@@ -15,7 +15,7 @@ const projectsData = [
     credit: ["Danil Bialo", "Evyatar Cohen", "Tamir Herzberg"],
     press: [
       { title: "Article on Scienmag", link: "https://scienmag.com/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
-      { title: "Article on Eurakalert", link: "https://www.eurekalert.org/news-releases/1069654" },
+      { title: "Article on Eurekalert", link: "https://www.eurekalert.org/news-releases/1069654" },
       { title: "Article on Bioengineer", link: "https://bioengineer.org/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
       { title: "Article on Bezalel Academy", link: "https://www.bezalel.ac.il/en/news/662015" },
     ],
