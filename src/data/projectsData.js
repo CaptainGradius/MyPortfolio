@@ -65,7 +65,7 @@ const projectsData = [
     ],
     websites: [{ title: "View on itch.io", link: "https://captaingradius.itch.io/cooper-vr"},
       { title: "Yissum Press Release", link: "https://www.yissum.co.il/technology/virtual-reality-ai-based-platform-for-enhancing-social-interaction" }],
-    credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin"],
+    credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin", "Yonatan Kratter"],
     gallery: [
       require('../assets/cooper-assets/cooper-gameplay0.webp'),
       require('../assets/cooper-assets/cooper-gameplay1.webp'),
