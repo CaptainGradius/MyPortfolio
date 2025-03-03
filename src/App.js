@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'r
 import Header from './components/Header';
 import ProjectsList from './components/ProjectsList';
 import ProjectPage from './pages/ProjectPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function AppContent() {
         <Route path="works/:projectId" element={<ProjectPage />} /> 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
