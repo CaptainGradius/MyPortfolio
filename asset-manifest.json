@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2013cd42.css",
-    "main.js": "/static/js/main.b75969b7.js",
+    "main.css": "/static/css/main.da5e41f6.css",
+    "main.js": "/static/js/main.d8fdde3d.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
@@ -32,12 +32,12 @@
     "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a9562242cd97c623434a.webp",
     "static/media/gdwc-finalist-best-student-game.webp": "/static/media/gdwc-finalist-best-student-game.ce6d42ff05049b0edc05.webp",
     "index.html": "/index.html",
-    "main.2013cd42.css.map": "/static/css/main.2013cd42.css.map",
-    "main.b75969b7.js.map": "/static/js/main.b75969b7.js.map",
+    "main.da5e41f6.css.map": "/static/css/main.da5e41f6.css.map",
+    "main.d8fdde3d.js.map": "/static/js/main.d8fdde3d.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2013cd42.css",
-    "static/js/main.b75969b7.js"
+    "static/css/main.da5e41f6.css",
+    "static/js/main.d8fdde3d.js"
   ]
 }
