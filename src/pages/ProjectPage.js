@@ -52,11 +52,8 @@ const ProjectPage = () => {
       </div>
       <div className="project-body">
         <div className="project-description">
-          {project?.description?.map((p, index) => (
-            <p key={index}>
-              {p.title ? <h2>{p.title}</h2> : null}
-              {p.text}
-            </p>
+          {project?.description?.split('\n').map((text, index) => (
+            <p key={index}>{text}</p>
           ))}
           <div>
           {project?.websites?.map((website, index) => (
