@@ -34,8 +34,7 @@ const projectsData = [
     cover: require('../assets/cooper-vr-static.webp'),
     tags: ['vr', 'ai', 'research'],
     description: "A VR experience designed to help people with social anxiety practice interactions in a safe and controlled environment using advanced AI tools.\nThe project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.\nCooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.",
-    websites: [{ title: "View on itch.io", link: "https://captaingradius.itch.io/cooper-vr" },
-    { title: "Yissum Press Release", link: "https://www.yissum.co.il/technology/virtual-reality-ai-based-platform-for-enhancing-social-interaction" }],
+    websites: [{ title: "Yissum Press Release", link: "https://www.yissum.co.il/technology/virtual-reality-ai-based-platform-for-enhancing-social-interaction" }],
     credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin", "Yonatan Kratter"],
     gallery: [
       require('../assets/cooper-assets/cooper-gameplay0.webp'),
