@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import ProjectsList from './components/ProjectsList';
 import ProjectPage from './pages/ProjectPage';
 import Footer from './components/Footer';
+import projectsData from './data/projectsData';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
 function AppContent() {
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleRouteChange = () => {
@@ -31,13 +33,27 @@ function AppContent() {
       }
     };
 
+    const updateTitle = () => {
+      const path = location.pathname;
+      if (path.startsWith('/works/')) {
+        const projectId = path.split('/')[2];
+        const project = projectsData.find(p => p.id === projectId);
+        if (project) {
+          document.title = `Evyatar Cohen / ${project.title}`;
+        }
+      } else {
+        document.title = 'Evyatar Cohen';
+      }
+    };
+
     window.addEventListener('popstate', handleRouteChange);
     checkRedirect();
+    updateTitle();
 
     return () => {
       window.removeEventListener('popstate', handleRouteChange);
     };
-  }, [navigate]);
+  }, [navigate, location]);
 
   return (
     <div className="App">
