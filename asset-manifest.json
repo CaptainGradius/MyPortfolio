@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.da5e41f6.css",
+    "main.css": "/static/css/main.d07238a7.css",
     "main.js": "/static/js/main.66838a66.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
@@ -32,12 +32,12 @@
     "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a9562242cd97c623434a.webp",
     "static/media/gdwc-finalist-best-student-game.webp": "/static/media/gdwc-finalist-best-student-game.ce6d42ff05049b0edc05.webp",
     "index.html": "/index.html",
-    "main.da5e41f6.css.map": "/static/css/main.da5e41f6.css.map",
+    "main.d07238a7.css.map": "/static/css/main.d07238a7.css.map",
     "main.66838a66.js.map": "/static/js/main.66838a66.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da5e41f6.css",
+    "static/css/main.d07238a7.css",
     "static/js/main.66838a66.js"
   ]
 }
