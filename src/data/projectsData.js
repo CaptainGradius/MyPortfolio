@@ -33,7 +33,7 @@ const projectsData = [
     category: 'VR Social Interaction Trainer',
     cover: require('../assets/cooper-vr-static.webp'),
     tags: ['vr', 'ai', 'research'],
-    description: "A VR experience designed to help people with social anxiety practice interactions in a safe and controlled environment using advanced AI tools.\nThe project is the result of an interdisciplinary collaboration between the computer science and psychology departments at the Hebrew University.\nCooper received a two-year funding grant of $50,000 from the Yissum Research Development Company under the Science Accelerator Fund for further development.",
+    description: "Cooper is a gamified VR-based social simulation trainer designed to help young individuals overcome social anxiety through immersive and controlled interactions.\nBy following a gradual exposure protocol, it leverages AI-driven NPCs and real-time speech recognition to create dynamic and responsive conversations, providing a safe space for users to practice social interactions. The project is the result of an interdisciplinary collaboration between the Computer Science and Psychology departments at the Hebrew University.\nThe combination of AI and psychology led to a $50,000 research grant from Yissum's Science Accelerator Fund, further validating the significance of the idea and its potential to create meaningful change in people's lives.",
     websites: [{ title: "Yissum Press Release", link: "https://www.yissum.co.il/technology/virtual-reality-ai-based-platform-for-enhancing-social-interaction" }],
     credit: ["Evyatar Cohen", "Naor Ladini", "Niv Vaknin", "Yonatan Kratter"],
     gallery: [
