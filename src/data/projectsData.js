@@ -18,7 +18,7 @@ const projectsData = [
     badges: [
       require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design-grey.webp'),
       require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design-grey.webp'),
-      require('../assets/breaking-news-assets/badges/gdwc-finalist-best-student-game.webp'),
+      require('../assets/breaking-news-assets/badges/gdwc-winner-best-student-game.webp'),
     ],
     gallery: [
       require('../assets/breaking-news-assets/gameplay-screenshots/BreakingNewsScreenshot1.webp'),
