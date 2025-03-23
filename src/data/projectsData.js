@@ -16,7 +16,7 @@ const projectsData = [
       { title: "Bezalel News", link: "https://www.bezalel.ac.il/en/news/662015" },
     ],
     badges: [
-      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design-grey.webp'),
+      require('../assets/breaking-news-assets/badges/bezalel-maizler-excellence-in-design-grey-with-logo.webp'),
       require('../assets/breaking-news-assets/badges/boston-fig-excellence-in-design-grey.webp'),
       require('../assets/breaking-news-assets/badges/gdwc-winner-best-student-game.webp'),
     ],
