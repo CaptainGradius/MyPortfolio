@@ -7,7 +7,7 @@ const projectsData = [
     tags: ['awards-winning','alt-ctrl', 'pc'],
     video: 'https://player.vimeo.com/video/1058959133?h=278d24c7e5&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1',
     description: "Referring to the CRT-TV (Picture Tube TV) era, we created a nostalgic meaning making experience — adding the twist that physically smacking the TV not only fixes some glitches in the viewer, but also alters the actual depicted reality.\nMy graduation project at Bezalel Academy, winner of the 2024 Bezalel-wide Maizler Award for Excellence in Design.\nThe project contains a series of minigames, where the player can actually reshape both the plot and the visuals by making choices through the television set.\nBreaking News was developed in two complementary formats - a physical installation featuring a custom-made TV setup and a distributable PC version.",
-    websites: [{ title: "Download on itch.io", link: "https://lunaduckstudios.itch.io/breakingnews" }],
+    websites: [{ title: "Wishlist on Steam!", link: "https://store.steampowered.com/app/3541940/Breaking_News/?utm_source=portfolio&utm_medium=web&utm_content=evya" }],
     credit: ["Danil Bialo", "Evyatar Cohen", "Tamir Herzberg"],
     press: [
       { title: "Scienmag", link: "https://scienmag.com/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
