@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d07238a7.css",
-    "main.js": "/static/js/main.036df2a5.js",
+    "main.js": "/static/js/main.c2b33c7f.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
@@ -33,11 +33,11 @@
     "static/media/gdwc-winner-best-student-game.webp": "/static/media/gdwc-winner-best-student-game.33f5bf7d0cd8991ead47.webp",
     "index.html": "/index.html",
     "main.d07238a7.css.map": "/static/css/main.d07238a7.css.map",
-    "main.036df2a5.js.map": "/static/js/main.036df2a5.js.map",
+    "main.c2b33c7f.js.map": "/static/js/main.c2b33c7f.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d07238a7.css",
-    "static/js/main.036df2a5.js"
+    "static/js/main.c2b33c7f.js"
   ]
 }
