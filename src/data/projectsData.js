@@ -9,12 +9,12 @@ const projectsData = [
     description: "Referring to the CRT-TV (Picture Tube TV) era, we created a nostalgic meaning making experience — adding the twist that physically smacking the TV not only fixes some glitches in the viewer, but also alters the actual depicted reality.\nMy graduation project at Bezalel Academy, winner of the 2024 Bezalel-wide Maizler Award for Excellence in Design.\nThe project contains a series of minigames, where the player can actually reshape both the plot and the visuals by making choices through the television set.\nBreaking News was developed in two complementary formats - a physical installation featuring a custom-made TV setup and a distributable PC version.",
     websites: [{ title: "Wishlist on Steam!", link: "https://store.steampowered.com/app/3541940/Breaking_News/?utm_source=portfolio&utm_medium=web&utm_content=evya" }],
     credit: ["Danil Bialo", "Evyatar Cohen", "Tamir Herzberg"],
-    press: [
-      { title: "Scienmag", link: "https://scienmag.com/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
-      { title: "Eurekalert", link: "https://www.eurekalert.org/news-releases/1069654" },
-      { title: "Bioengineer", link: "https://bioengineer.org/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
-      { title: "Bezalel News", link: "https://www.bezalel.ac.il/en/news/662015" },
-    ],
+    // press: [
+    //   { title: "Scienmag", link: "https://scienmag.com/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
+    //   { title: "Eurekalert", link: "https://www.eurekalert.org/news-releases/1069654" },
+    //   { title: "Bioengineer", link: "https://bioengineer.org/celebrating-evyatar-cohen-and-tamir-herzberg-winners-of-the-figgie-award-for-excellence-in-design-at-hebrew-university" },
+    //   { title: "Bezalel News", link: "https://www.bezalel.ac.il/en/news/662015" },
+    // ],
     badges: [
       require('../assets/breaking-news-assets/badges/tisff-best-digital-project-grey.webp'),
       require('../assets/breaking-news-assets/badges/a-maze-audience-award-grey.webp'),
