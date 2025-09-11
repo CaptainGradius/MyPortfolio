@@ -5,6 +5,7 @@ import ProjectsList from './components/ProjectsList';
 import ProjectPage from './pages/ProjectPage';
 import Footer from './components/Footer';
 import projectsData from './data/projectsData';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function AppContent() {
         if (project) {
           document.title = `Evyatar Cohen / ${project.title}`;
         }
+      } else if (path === '/about') {
+        document.title = 'Evyatar Cohen - About';
       } else {
         document.title = 'Evyatar Cohen';
       }
@@ -61,6 +64,7 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<ProjectsList />} />
         <Route path="works/:projectId" element={<ProjectPage />} /> 
+        <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />

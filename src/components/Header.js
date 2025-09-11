@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import './Header.css';
 import githubIcon from '../assets/icons/github-icon.png';
 import linkedinIcon from '../assets/icons/linkedin-icon.png';
+import aboutIcon from '../assets/icons/about-icon.png';
 
 const Header = () => {
   return (
@@ -14,6 +15,11 @@ const Header = () => {
         </div>
         <div>
           <div className="header-right">
+            <div className="icon-container">
+              <a href="/about">
+                <img src={aboutIcon} alt="About" className="icon" />
+              </a>
+            </div>
             <div className="icon-container">
               <a href="https://github.com/CaptainGradius" target="_blank" rel="noopener noreferrer">
                 <img src={githubIcon} alt="GitHub" className="icon" />
