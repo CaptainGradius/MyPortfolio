@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f37361d.css",
+    "main.css": "/static/css/main.6e419a22.css",
     "main.js": "/static/js/main.b75e6946.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
@@ -34,12 +34,12 @@
     "static/media/tisff-best-digital-project-grey.webp": "/static/media/tisff-best-digital-project-grey.5ba4c5461017cdddf0b8.webp",
     "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.5965ee2c5f68ddf908d1.webp",
     "index.html": "/index.html",
-    "main.5f37361d.css.map": "/static/css/main.5f37361d.css.map",
+    "main.6e419a22.css.map": "/static/css/main.6e419a22.css.map",
     "main.b75e6946.js.map": "/static/js/main.b75e6946.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f37361d.css",
+    "static/css/main.6e419a22.css",
     "static/js/main.b75e6946.js"
   ]
 }
