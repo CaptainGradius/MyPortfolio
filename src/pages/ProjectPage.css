@@ -50,12 +50,15 @@
 }
 
 .project-badges {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   margin-top: 20px;
   max-width: 800px;
-  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .badge {
@@ -72,7 +75,6 @@
   max-height: 100%;
 }
 
-/* add images one under the other (not a grid) with max width of 800px */
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
