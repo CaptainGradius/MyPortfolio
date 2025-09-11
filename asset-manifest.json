@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d07238a7.css",
-    "main.js": "/static/js/main.c2b33c7f.js",
+    "main.css": "/static/css/main.5f37361d.css",
+    "main.js": "/static/js/main.b75e6946.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
-    "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.85d556e5a04b6f278fdd.gif",
+    "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.b99c72cfd2f2c2a370df.gif",
     "static/media/vertigo-gameplay-2.webp": "/static/media/vertigo-gameplay-2.b7033dc8a0904f1f356f.webp",
     "static/media/swipe-to-unlock-static.gif": "/static/media/swipe-to-unlock-static.8e2cef75edc0da1117fb.gif",
     "static/media/galaxy-eggs-5.webp": "/static/media/galaxy-eggs-5.74b7957ee6bb6c1c3962.webp",
@@ -27,17 +27,19 @@
     "static/media/cooper-gameplay3.webp": "/static/media/cooper-gameplay3.e0bd545d0eb65481177b.webp",
     "static/media/swipe-to-unlock-gameplay-1.webp": "/static/media/swipe-to-unlock-gameplay-1.3401fa80535a3ed852b0.webp",
     "static/media/trash-day-static.webp": "/static/media/trash-day-static.21e27fb158a80b5dce7d.webp",
-    "static/media/bezalel-maizler-excellence-in-design-grey-with-logo.webp": "/static/media/bezalel-maizler-excellence-in-design-grey-with-logo.38adf9999dc6c16b3661.webp",
     "static/media/cooper-gameplay0.webp": "/static/media/cooper-gameplay0.7886f57dedbd33b32c7f.webp",
-    "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.01ee5b385060862f270d.webp",
-    "static/media/gdwc-winner-best-student-game.webp": "/static/media/gdwc-winner-best-student-game.33f5bf7d0cd8991ead47.webp",
+    "static/media/a-maze-audience-award-grey.webp": "/static/media/a-maze-audience-award-grey.7c4b7723640b25a0a94a.webp",
+    "static/media/bezalel-maizler-excellence-in-design-grey.webp": "/static/media/bezalel-maizler-excellence-in-design-grey.a84e3073887d769d61b5.webp",
+    "static/media/gdwc-winner-best-student-game-grey.webp": "/static/media/gdwc-winner-best-student-game-grey.da3db60f6f4112775a48.webp",
+    "static/media/tisff-best-digital-project-grey.webp": "/static/media/tisff-best-digital-project-grey.5ba4c5461017cdddf0b8.webp",
+    "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.5965ee2c5f68ddf908d1.webp",
     "index.html": "/index.html",
-    "main.d07238a7.css.map": "/static/css/main.d07238a7.css.map",
-    "main.c2b33c7f.js.map": "/static/js/main.c2b33c7f.js.map",
+    "main.5f37361d.css.map": "/static/css/main.5f37361d.css.map",
+    "main.b75e6946.js.map": "/static/js/main.b75e6946.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d07238a7.css",
-    "static/js/main.c2b33c7f.js"
+    "static/css/main.5f37361d.css",
+    "static/js/main.b75e6946.js"
   ]
 }
