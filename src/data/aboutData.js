@@ -17,6 +17,7 @@ const aboutData = {
   exhibitions: [
     { title: "Cinekid", year: "Upcoming: 2025", location: "Amsterdam, Netherlands" },
     { title: "Rode Hond", year: "Upcoming: 2025", location: "Leuven, Belgium" },
+    { title: "TrikFilm", year: "Upcoming: 2025", location: "Ostrava, Czechia" },
     { title: "Gamescom", year: 2025, location: "Cologne, Germany" },
     { title: "Tisff", year: 2025, location: "Tel Aviv, Israel"},
     { title: "A MAZE.", year: 2025, location: "Berlin, Germany" },
