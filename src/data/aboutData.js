@@ -15,9 +15,9 @@ const aboutData = {
   talk_workshops: [
   ],
   exhibitions: [
-    { title: "Cinekid", year: "Upcoming: 2025", location: "Amsterdam, Netherlands" },
-    { title: "Rode Hond", year: "Upcoming: 2025", location: "Leuven, Belgium" },
-    { title: "TrikFilm", year: "Upcoming: 2025", location: "Ostrava, Czechia" },
+    { title: "Rode Hond", year: "2025", location: "Leuven, Belgium" },
+    { title: "Cinekid", year: "2025", location: "Amsterdam, Netherlands" },
+    { title: "TrikFilm", year: "2025", location: "Ostrava, Czechia" },
     { title: "Gamescom", year: 2025, location: "Cologne, Germany" },
     { title: "Tisff", year: 2025, location: "Tel Aviv, Israel"},
     { title: "A MAZE.", year: 2025, location: "Berlin, Germany" },
@@ -27,6 +27,7 @@ const aboutData = {
     { title: "Bezalel Graduate Exhibition", year: 2024, location: "Jerusalem, Israel" }
   ],
 awards: [
+  { title: "Best Student Interactive Project, TrikFilm", year: 2025, result: "Finalist" },
   { title: "Best Digital Project, TISFF", year: 2025, result: "Winner" },
   { title: "Audience Award, A MAZE. Berlin", year: 2025, result: "Winner" },
   { title: "Best Student Game, GDWC Winter Season", year: 2024, result: "Winner" },
