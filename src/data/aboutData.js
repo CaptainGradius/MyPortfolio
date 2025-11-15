@@ -27,6 +27,7 @@ const aboutData = {
     { title: "Bezalel Graduate Exhibition", year: 2024, location: "Jerusalem, Israel" }
   ],
 awards: [
+  { title: "Best Game Award, Cinekid", year: 2025, result: "Finalist" },
   { title: "Best Student Interactive Project, TrikFilm", year: 2025, result: "Finalist" },
   { title: "Best Digital Project, TISFF", year: 2025, result: "Winner" },
   { title: "Audience Award, A MAZE. Berlin", year: 2025, result: "Winner" },
