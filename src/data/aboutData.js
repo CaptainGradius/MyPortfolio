@@ -1,12 +1,13 @@
 const aboutData = {
   titles: [
     "Based in Copenhagen, Denmark.",
-    "Co-founder at Luna Duck Studios.",
-    "Enrolled in MSc in Games – IT University of Copenhagen.",
-    "BSc in Computer Science and Game Development & Design – The  Hebrew University of Jerusalem and Bezalel Academy.",
+    "Co-founder & CTO at Luna Duck Studios.",
+    "MSc in Games student at IT University of Copenhagen.",
+    "BSc in Computer Science and Game Development & Design at Hebrew U and Bezalel Academy.",
   ],
   enquiries: "evyatar.e.cohen@gmail.com",
   selectedPress: [
+      { title: "Arkaden", link: "https://arkaden.dk/features/hojdepunkter-fra-copenhagen-gaming-week-vores-mest-ventede-spil"},
       { title: "The Marker", link: "https://www.themarker.com/captain-internet/2025-05-26/ty-article/00000197-0be3-dff8-abff-9be7c1280000"},
       { title: "Eurekalert", link: "https://www.eurekalert.org/news-releases/1069654" },
       { title: "Bezalel News", link: "https://www.bezalel.ac.il/en/news/662015" },
@@ -15,9 +16,13 @@ const aboutData = {
   talk_workshops: [
   ],
   exhibitions: [
-    { title: "Rode Hond", year: "2025", location: "Leuven, Belgium" },
-    { title: "Cinekid", year: "2025", location: "Amsterdam, Netherlands" },
-    { title: "TrikFilm", year: "2025", location: "Ostrava, Czechia" },
+    { title: "FDG: Research Through Games", year: "Upcoming:2026", location: "Copenhagen, Denmark" },
+    { title: "TAGS: CPH Gaming Week", year: 2026, location: "Copenhagen, Denmark" },
+    { title: "Shaon Horef Festival", year: 2026, location: "Jerusalem, Israel" },
+    { title: "Hansen House: Level Up", year: 2025, location: "Jerusalem, Israel" },
+    { title: "Rode Hond", year: 2025, location: "Leuven, Belgium" },
+    { title: "Cinekid", year: 2025, location: "Amsterdam, Netherlands" },
+    { title: "TrikFilm", year: 2025, location: "Ostrava, Czechia" },
     { title: "Gamescom", year: 2025, location: "Cologne, Germany" },
     { title: "Tisff", year: 2025, location: "Tel Aviv, Israel"},
     { title: "A MAZE.", year: 2025, location: "Berlin, Germany" },
@@ -27,6 +32,7 @@ const aboutData = {
     { title: "Bezalel Graduate Exhibition", year: 2024, location: "Jerusalem, Israel" }
   ],
 awards: [
+  { title: "Best Student Game, Unity", year: 2025, result: "Finalist" },
   { title: "Best Game Award, Cinekid", year: 2025, result: "Finalist" },
   { title: "Best Student Interactive Project, TrikFilm", year: 2025, result: "Finalist" },
   { title: "Best Digital Project, TISFF", year: 2025, result: "Winner" },

@@ -9,8 +9,6 @@ const AboutPage = () => (
         {aboutData.titles.map((title, idx) => (
           <p key={idx}>{title}</p>
         ))}
-        <h3>Contact and inquiries</h3>
-        <p>{aboutData.enquiries}</p>
         {aboutData.selectedPress.length > 0 && (
           <>
             <h3>Selected press</h3>
@@ -25,28 +23,30 @@ const AboutPage = () => (
             </ul>
           </>
         )}
+        <h3>Contact and inquiries</h3>
+        <p>{aboutData.enquiries}</p>
       </div>
       <div className="about-right">
         <div className="about-col">
-          {aboutData.exhibitions.length > 0 && (
+          {aboutData.awards.length > 0 && (
             <>
-              <h3 class="h3custom">Exhibitions</h3>
+              <h3 class="h3custom">Awards</h3>
               <ul>
-                {aboutData.exhibitions.map((ex, idx) => (
+                {aboutData.awards.map((award, idx) => (
                   <li key={idx}>
-                    {ex.year} {ex.title} ({ex.location})
+                    {award.year} {award.result}, {award.title}
                   </li>
                 ))}
               </ul>
             </>
           )}
-          {aboutData.awards.length > 0 && (
+          {aboutData.exhibitions.length > 0 && (
             <>
-              <h3>Awards</h3>
+              <h3>Exhibitions</h3>
               <ul>
-                {aboutData.awards.map((award, idx) => (
+                {aboutData.exhibitions.map((ex, idx) => (
                   <li key={idx}>
-                    {award.year} {award.result}, {award.title}
+                    {ex.year} {ex.title} ({ex.location})
                   </li>
                 ))}
               </ul>
