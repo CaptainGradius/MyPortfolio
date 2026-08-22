@@ -2,7 +2,7 @@ const aboutData = {
   titles: [
     "Based in Copenhagen, Denmark.",
     "Co-founder & CTO at Luna Duck Studios.",
-    "2nd year MSc in Games student at IT University of Copenhagen.",
+    "2nd year MSc in Games student at IT University of Copenhagen.",
     "B.Sc. in Computer Science at Hebrew U with a 2-year Game Development VC Track at Bezalel Academy.",
     "Michael's dad :)",
   ],

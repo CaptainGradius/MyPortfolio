@@ -70,4 +70,5 @@
 
 .about-left p {
     margin: 0;
+    text-wrap: pretty;
 }
