@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import Header from './components/Header';
@@ -7,30 +7,6 @@ import ProjectPage from './pages/ProjectPage';
 import Footer from './components/Footer';
 import projectsData from './data/projectsData';
 import AboutPage from './pages/AboutPage';
-
-const ConsentBanner = ({ onAccept }) => {
-  const [isVisible, setIsVisible] = useState(!localStorage.getItem('google_consent'));
-
-  const handleChoice = (choice) => {
-    localStorage.setItem('google_consent', choice);
-    setIsVisible(false);
-    if (choice === 'granted') onAccept();
-  };
-
-  if (!isVisible) return null;
-
-  return (
-    <div style={bannerStyle}>
-      <p style={{ margin: 0 }}>
-        This site uses cookies to track visits.
-      </p>
-      <div>
-        <button onClick={() => handleChoice('granted')} style={btnStyle}>Accept</button>
-        <button onClick={() => handleChoice('denied')} style={declineStyle}>Decline</button>
-      </div>
-    </div>
-  );
-};
 
 function App() {
   return (
@@ -57,15 +33,11 @@ function AppContent() {
   };
 
   useEffect(() => {
-    if (localStorage.getItem('google_consent') === 'granted') {
-      initializeAnalytics();
-    }
+    initializeAnalytics();
   }, []);
 
   useEffect(() => {
-    if (localStorage.getItem('google_consent') === 'granted') {
-      ReactGA.send({ hitType: "pageview", page: location.pathname });
-    }
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
 
     const handleRouteChange = () => { window.scrollTo(0, 0); };
 
@@ -100,7 +72,6 @@ function AppContent() {
   return (
     <div className="App">
       <Header />
-      <ConsentBanner onAccept={initializeAnalytics} />
       <Routes>
         <Route path="/" element={<ProjectsList />} />
         <Route path="works/:projectId" element={<ProjectPage />} /> 
@@ -111,14 +82,5 @@ function AppContent() {
     </div>
   );
 }
-
-const bannerStyle = {
-  position: 'fixed', bottom: '20px', left: '20px', right: '20px',
-  backgroundColor: '#ffffff', padding: '15px 25px', border: '1px solid #363636',
-  display: 'flex', justifyContent: 'space-between', alignItems: 'center', zIndex: 1000,
-  boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-};
-const btnStyle = { backgroundColor: '#363636', color: 'white', padding: '8px 16px', border: 'none', cursor: 'pointer', marginLeft: '10px' };
-const declineStyle = { background: 'none', border: '1px solid #363636', padding: '8px 16px', cursor: 'pointer', marginLeft: '10px' };
 
 export default App;
