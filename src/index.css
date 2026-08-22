@@ -1,9 +1,38 @@
+:root {
+  --bg: #ffffff;
+  --text: #363636;
+  --text-strong: #000000;
+  --text-muted: #555555;
+  --border: #000000;
+  --border-soft: #eaeaea;
+  --tag: #808080;
+  --icon-filter: none;
+  --spinner-track: #f3f3f3;
+  --spinner-head: #808080;
+}
+
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --text: #d6d6d6;
+  --text-strong: #f2f2f2;
+  --text-muted: #a3a3a3;
+  --border: #3d3d3d;
+  --border-soft: #2a2a2a;
+  --tag: #8a8a8a;
+  --icon-filter: invert(1);
+  --spinner-track: #2a2a2a;
+  --spinner-head: #8a8a8a;
+}
+
 body {
   margin: 0;
   font-family: "Hind Guntur", monospace;
   font-weight: 200;
+  background-color: var(--bg);
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 code {
@@ -13,12 +42,13 @@ code {
 
 .container {
   max-width: 1300px;
-  color: #363636;
+  color: var(--text);
   margin: 0 auto; /* Centers the container horizontally */
   /* padding: 20px;  Optional: adds some inner spacing */
-  background-color: #ffffff;
+  background-color: var(--bg);
   padding: 0 20px; /* Adds padding to ensure content is not touching the edges */
   box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @keyframes fadeInUp {

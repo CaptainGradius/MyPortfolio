@@ -7,14 +7,17 @@ import ProjectPage from './pages/ProjectPage';
 import Footer from './components/Footer';
 import projectsData from './data/projectsData';
 import AboutPage from './pages/AboutPage';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div className="container">
-      <Router>
-        <AppContent />
-      </Router>
-    </div>
+    <ThemeProvider>
+      <div className="container">
+        <Router>
+          <AppContent />
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 

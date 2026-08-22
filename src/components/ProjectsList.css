@@ -11,10 +11,10 @@
 .project-card {
   display: grid;
   grid-template-columns: 1fr 480px; /* flexible text column and fixed image column */
-  background-color: #ffffff;
-  color: #363636;
+  background-color: var(--bg);
+  color: var(--text);
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
   opacity: 0;
   animation: fadeInUp 0.7s ease forwards;
 }
@@ -50,7 +50,7 @@
 }
 
 .tag {
-  color: grey;
+  color: var(--tag);
   margin-right: 5px;
   font-size: 0.9em;
 }

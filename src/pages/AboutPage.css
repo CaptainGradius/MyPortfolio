@@ -26,13 +26,13 @@
     display: flex;
     flex-direction: column;
     gap: 0 0 0px 0;
-    color: #555;
+    color: var(--text-muted);
     line-height: 1.5;
 }
 
 .about-left a,
 .about-col a {
-    color: #555;
+    color: var(--text-muted);
     text-decoration: underline;
 }
 
@@ -40,7 +40,7 @@
     flex: 2;
     display: flex;
     gap: 0;
-    color: #555;
+    color: var(--text-muted);
 }
 
 .about-col {
