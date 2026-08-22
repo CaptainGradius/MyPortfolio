@@ -2,8 +2,9 @@ const aboutData = {
   titles: [
     "Based in Copenhagen, Denmark.",
     "Co-founder & CTO at Luna Duck Studios.",
-    "MSc in Games student at IT University of Copenhagen.",
-    "BSc in Computer Science and Game Development & Design at Hebrew U and Bezalel Academy.",
+    "2nd year MSc in Games student at IT University of Copenhagen.",
+    "B.Sc. in Computer Science at Hebrew U with a 2-year Game Development Track at Bezalel Academy (VC Dept.)",
+    "Michael's Dad",
   ],
   enquiries: "evyatar.e.cohen@gmail.com",
   selectedPress: [
@@ -16,7 +17,7 @@ const aboutData = {
   talk_workshops: [
   ],
   exhibitions: [
-    { title: "FDG: Research Through Games", year: "Upcoming:2026", location: "Copenhagen, Denmark" },
+    { title: "FDG: Research Through Games", year: 2026, location: "Copenhagen, Denmark" },
     { title: "TAGS: CPH Gaming Week", year: 2026, location: "Copenhagen, Denmark" },
     { title: "Shaon Horef Festival", year: 2026, location: "Jerusalem, Israel" },
     { title: "Hansen House: Level Up", year: 2025, location: "Jerusalem, Israel" },
