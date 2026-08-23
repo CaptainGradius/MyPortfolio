@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a71e7bd0.css",
-    "main.js": "/static/js/main.94648651.js",
+    "main.css": "/static/css/main.fb3449b4.css",
+    "main.js": "/static/js/main.7aabb0e1.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
@@ -34,12 +34,12 @@
     "static/media/tisff-best-digital-project-grey.webp": "/static/media/tisff-best-digital-project-grey.5ba4c5461017cdddf0b8.webp",
     "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.5965ee2c5f68ddf908d1.webp",
     "index.html": "/index.html",
-    "main.a71e7bd0.css.map": "/static/css/main.a71e7bd0.css.map",
-    "main.94648651.js.map": "/static/js/main.94648651.js.map",
+    "main.fb3449b4.css.map": "/static/css/main.fb3449b4.css.map",
+    "main.7aabb0e1.js.map": "/static/js/main.7aabb0e1.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71e7bd0.css",
-    "static/js/main.94648651.js"
+    "static/css/main.fb3449b4.css",
+    "static/js/main.7aabb0e1.js"
   ]
 }
