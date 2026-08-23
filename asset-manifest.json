@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f142cd5.css",
-    "main.js": "/static/js/main.ec571c28.js",
+    "main.css": "/static/css/main.a71e7bd0.css",
+    "main.js": "/static/js/main.94648651.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/breaking-news-gameplay-gif.gif": "/static/media/breaking-news-gameplay-gif.b59d63a1f041913cd1f3.gif",
     "static/media/vertigo-gif.gif": "/static/media/vertigo-gif.6f058e339ad8e381a508.gif",
+    "static/media/cooper-vr-preview.gif": "/static/media/cooper-vr-preview.8a0906a7b3680b0f00a8.gif",
     "static/media/galaxy-eggs-saga-cover.webp": "/static/media/galaxy-eggs-saga-cover.2796ee484704f7f82b44.webp",
     "static/media/breaking-news-gif.gif": "/static/media/breaking-news-gif.b99c72cfd2f2c2a370df.gif",
     "static/media/vertigo-gameplay-2.webp": "/static/media/vertigo-gameplay-2.b7033dc8a0904f1f356f.webp",
@@ -23,7 +24,6 @@
     "static/media/cooper-gameplay1.webp": "/static/media/cooper-gameplay1.20d1b8569984af980a63.webp",
     "static/media/vertigo-gameplay-3.webp": "/static/media/vertigo-gameplay-3.2012412d73224259ba2b.webp",
     "static/media/cooper-gameplay4.webp": "/static/media/cooper-gameplay4.39751dca5542f92b2f71.webp",
-    "static/media/cooper-vr-static.webp": "/static/media/cooper-vr-static.246f16d921fb7e5cccd6.webp",
     "static/media/cooper-gameplay3.webp": "/static/media/cooper-gameplay3.e0bd545d0eb65481177b.webp",
     "static/media/swipe-to-unlock-gameplay-1.webp": "/static/media/swipe-to-unlock-gameplay-1.3401fa80535a3ed852b0.webp",
     "static/media/trash-day-static.webp": "/static/media/trash-day-static.21e27fb158a80b5dce7d.webp",
@@ -34,12 +34,12 @@
     "static/media/tisff-best-digital-project-grey.webp": "/static/media/tisff-best-digital-project-grey.5ba4c5461017cdddf0b8.webp",
     "static/media/boston-fig-excellence-in-design-grey.webp": "/static/media/boston-fig-excellence-in-design-grey.5965ee2c5f68ddf908d1.webp",
     "index.html": "/index.html",
-    "main.6f142cd5.css.map": "/static/css/main.6f142cd5.css.map",
-    "main.ec571c28.js.map": "/static/js/main.ec571c28.js.map",
+    "main.a71e7bd0.css.map": "/static/css/main.a71e7bd0.css.map",
+    "main.94648651.js.map": "/static/js/main.94648651.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f142cd5.css",
-    "static/js/main.ec571c28.js"
+    "static/css/main.a71e7bd0.css",
+    "static/js/main.94648651.js"
   ]
 }
